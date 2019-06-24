@@ -54,7 +54,7 @@ const scrapSFCLicensees = async pageNum => {
 	return result.join("\n");
 };
 
-const pageNumList = [1440, 49572, 21177, 45382, 14215, 77546]; // set required page numbers to scrap
+const pageNumList = [1440, 49572, 21177, 45382, 14215, 77546, 70883, 70270, 2427116, 2547792, 9135533]; // set required page numbers to scrap
 
 pageNumList.forEach(pageNum => {
 	if (fs.existsSync(`./sfc-licensees-data/sfc-licensees-${pageNum}.csv`)) {
