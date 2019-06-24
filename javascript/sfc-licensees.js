@@ -14,6 +14,8 @@ const scrapSFCLicensees = async pageNum => {
 		return tdList.map(td => td.textContent);
 	});
 
+	// console.log("data", data);
+
 	await browser.close();
 
 	const temp = [];
@@ -23,11 +25,11 @@ const scrapSFCLicensees = async pageNum => {
 		temp.push(data.slice(i, i + numOfFields));
 	}
 	// console.log("temp", temp);
-	const result = temp.filter(e => {
-		return e[4] === "RO"; // select RO role only
-	});
+	// const result = temp.filter(e => {
+	// 	return e[4] === "RO"; // select RO role only
+	// });
 
-	result.map(e => {
+	const result = temp.map(e => {
 		e.splice(0, 1); // remove extra fields
 		e.splice(1, 2);
 		e.splice(3, 1);
@@ -52,9 +54,9 @@ const scrapSFCLicensees = async pageNum => {
 	return result.join("\n");
 };
 
-// const pageNumList = [1440, 1441, 1445, 49572, 21177, 45382, 14215, 77546]; // set required page numbers to scrap
+const pageNumList = [1440, 1441, 1445, 49572, 21177, 45382, 14215, 77546]; // set required page numbers to scrap
 
-const pageNumList = [77546]; // set required page numbers to scrap
+// const pageNumList = [77546]; // set required page numbers to scrap
 
 pageNumList.forEach(pageNum => {
 	scrapSFCLicensees(pageNum).then(result => {
