@@ -52,7 +52,7 @@ const scrapSFCLicensees = async pageNum => {
 	return result.join("\n");
 };
 
-const pageNumList = [1440, 1441, 1445]; // set required page numbers to scrap
+const pageNumList = [1440, 1441, 1445, 49572, 21177, 45382, 14215]; // set required page numbers to scrap
 
 pageNumList.forEach(pageNum => {
 	scrapSFCLicensees(pageNum).then(result => {
