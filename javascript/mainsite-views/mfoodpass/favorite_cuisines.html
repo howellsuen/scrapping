@@ -1,0 +1,44 @@
+<%- include('./layout/header.html', {bodyClass: 'inner'}); -%>
+
+
+<div class="content cuisines">
+
+  <div class="recipe_highlight ">
+    <div class="container card_container" id="favoriteCuisinesList">
+      <h3 class="bar">
+        <div class="headline"><span>Recipes By Cuisine | Best International Recipes | Step By Step</span></div>
+      </h3>
+    </div>
+
+    <script>
+      var favoriteCuisines = [
+        {title: 'Chinese Recipes', key: 'chinese recipes', img: 'cuisine04.jpg', description: 'Widely popular for simple and easy cooking but also, has versatility in the ingredients. Dont wait for your favourite Chinese take out or delivery just put on your apron and follow our chinese recipes.', url: '/classic_recipe?tag=chinese recipes'},
+        {title: 'Latin Recipes', key: 'latin recipes', img: 'cuisine06.jpg', description: 'Italian cuisine has much more to offer than just pizzas and pastas. Fresh produce and simple cooking is what distinguishes it from other cuisine. Find a range of hearty and healthy italian recipes in this section.', url: '/classic_recipe?tag=latin recipes'},
+        {title: 'Middle Eastern Recipes', key: 'middle eastern recipes', img: 'cuisine07.jpg', description: 'Middle eastern cuisine is famous for its diversity. It is Fresh, wholesome, and rich. Dive into our Middle east section to find delectable and authentic middle eastern recipes.', url: '/classic_recipe?tag=middle eastern recipes'},
+        {title: 'International Recipes', key: 'international recipes', img: 'cuisine08.jpg', description: 'Love to experiment with food? Love eating different cuisines? Our international recipes section takes bits and pieces from every region to help you cook a lavish spread for your family and friends', url: '/classic_recipe?tag=international recipes'},
+        {title: 'Indian Recipes', key: 'indian recipes', img: 'cuisine09.jpg', description: 'Every Indian meal is a feast for a food lover. Indian food is a glorious blend of spices and each food has an unique flavour and aroma. Immerse yourself in our scrumptious indian recipes.', url: '/classic_recipe?tag=indian recipes'},
+      ];
+      var output = favoriteCuisines.map(function (val, idx) {
+        return `
+          <div class="recipe_card col-12 col-sm-6 col-md-4">
+            <div class="box">
+              <div class="recipe_img"><a href="${val.url}"><img src="<%= cdn('img/${val.img}') %>" class="fitimg"></a></div>
+              <div class="recipe_desc">
+                <p class="title">${val.title}</p>
+                <p class="content">${val.description}</p>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      document.querySelector('#favoriteCuisinesList').insertAdjacentHTML('beforeend', output);
+    </script>
+
+  </div>
+
+</div>
+
+<%- include('./layout/footer.html'); -%>
+</body>
+</html>

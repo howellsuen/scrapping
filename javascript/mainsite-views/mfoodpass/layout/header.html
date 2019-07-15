@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="<%= cdn('img/favicon.ico') %>">
+
+  <title>mfoodpass</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="<%= cdn('css/bootstrap.min.css') %>">
+  <link rel="stylesheet" href="<%= cdn('css/all.min.css') %>">
+  <link rel="stylesheet" href="<%= cdn('css/main.css') %>">
+
+  <!-- Scripts -->
+  <script src="<%= cdn('js/jquery-3.3.1.min.js') %>"></script>
+  <script src="<%= cdn('js/popper.min.js') %>"></script>
+  <script src="<%= cdn('js/bootstrap.min.js') %>"></script>
+
+  <!-- development team script -->
+  <script src="<%= cdn('js/likeButton.js') %>"></script>
+
+</head>
+
+<body class="<%= bodyClass %>">
+<header>
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="/"><span><img src="<%= cdn('img/logo.png') %>" class="img-fluid"></span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</span></a>
+          </li>
+
+          <!--
+          Section : recipes
+          -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navbarMainTag" href="" id="dropdown_recipes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown_recipes">
+              <div class="dropdownlist" id="recipesNavBarList">
+                <div class="list_col">
+                  <p class="name navbarFirstItemSubTag">Popular</p>
+                  <ul id="recipes-popular">
+                    <li><a href="favorite_cuisines">Appetizer</a></li>
+                  </ul>
+                </div>
+                <div class="list_col">
+                  <p class="name navbarFirstItemSubTag">CUISINES</p>
+                  <ul id="recipes-cuisines">
+                    <li><a href="favorite_cuisines">Indian Recipes</a></li>
+                  </ul>
+                </div>
+                <div class="list_col">
+                  <p class="name navbarFirstItemSubTag">CATEGORY</p>
+                  <ul id="recipes-category">
+                    <li><a href="favorite_cuisines">veggie</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navbarMainTag" href="" id="dropdown_cooking_method" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cooking Method</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown_cooking_method">
+              <div class="dropdownlist">
+                <div class="list_all">
+                  <ul id="cookingMethod">
+                    <li><a href="featured_collection">slow-cooker</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navbarMainTag" href="" id="dropdown_occasions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Occasions</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown_occasions">
+              <div class="dropdownlist">
+                <div class="list_all">
+                  <ul id="occasions">
+                    <li><a href="featured_collection">birthdays</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item search"><a class="nav-link slide-toggle" href="#"><i class="fas fa-search"></i></a></li>
+          <li class="nav-item loginlink" id="logInOnOff">
+            <button id="btnLogin" type="button" class="nav-link" data-toggle="modal" data-target="#loginpop">Log in</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <!--  Render Nav bar -->
+    <script>
+      var recipesNavBarList = {
+        'Recipe': {
+          'Courses' : [
+            {title: 'Appetizer', key: 'appetizer', url: '/classic_recipe?tag=appetizer'},
+            {title: 'Side', key: 'side', url: '/classic_recipe?tag=side'},
+            {title: 'Easy Entertaining', key: 'easy entertaining', url: '/classic_recipe?tag=easy entertaining'},
+            {title: 'Entree', key: 'entree', url: '/classic_recipe?tag=entree'},
+            {title: 'Baking', key: 'baking', url: '/classic_recipe?tag=baking'},
+          ],
+          'Cuisines': [
+            {title: 'Indian Recipes', key: 'indian recipes', url: '/classic_recipe?tag=indian recipes'},
+            {title: 'International Recipes', key: 'international recipes', url: '/classic_recipe?tag=international recipes'},
+            {title: 'Middle eastern Recipes', key: 'middle eastern recipes', url: '/classic_recipe?tag=middle eastern recipes'},
+            {title: 'Latin Recipes', key: 'latin recipes', url: '/classic_recipe?tag=latin recipes'},
+            {title: 'Chinese Recipes', key: 'chinese recipes', url: '/classic_recipe?tag=chinese recipes'},
+          ],
+          'Category': [
+            {title: 'Veggie', key: 'veggie', url: '/classic_recipe?tag=veggie'},
+            {title: 'Dessert', key: 'dessert', url: '/classic_recipe?tag=dessert'},
+            {title: 'Pork', key: 'pork', url: '/classic_recipe?tag=pork'},
+            {title: 'Freeze', key: 'freeze', url: '/classic_recipe?tag=freeze'},
+            {title: 'Snack', key: 'snack', url: '/classic_recipe?tag=snack'},
+          ]
+        },
+        'Cooking Method': [
+          {title: 'Slow-cooker', key: 'slow-cooker', url: '/classic_recipe?tag=slow-cooker'},
+          {title: 'Microwave', key: 'microwave', url: '/classic_recipe?tag=microwave'},
+          {title: 'Roasting', key: 'roasting', url: '/classic_recipe?tag=roasting'},
+          {title: 'Baking', key: ' baking', url: '/classic_recipe?tag=baking'},
+          {title: 'Grilling', key: 'grilling', url: '/classic_recipe?tag=grilling'},
+          {title: 'Deep Fried', key: 'deep fried', url: '/classic_recipe?tag=deep fried'},
+        ],
+        'Occasions': [
+          {title: 'Birthdays', key: 'birthdays', url: '/classic_recipe?tag=birthdays'},
+          {title: 'Christmas', key: 'christmas', url: '/classic_recipe?tag=christmas'},
+          {title: 'Diwali', key: 'diwali', url: '/classic_recipe?tag=diwali'},
+          {title: 'Halloween', key: 'halloween', url: '/classic_recipe?tag=halloween'},
+          {title: 'Easter', key: 'easter', url: '/classic_recipe?tag=easter'},
+        ],
+      };
+      var navbarKeys = Object.keys(recipesNavBarList);
+      var navbarFirstItemSubKeys = Object.keys(recipesNavBarList[navbarKeys[0]]);
+
+      // set main tag
+      document.querySelectorAll('.navbarMainTag').forEach(function (DOM ,idx) {
+        DOM.innerHTML = navbarKeys[idx];
+      });
+
+      // set sub tag
+      document.querySelectorAll('.navbarFirstItemSubTag').forEach(function (DOM, idx) {
+        DOM.innerHTML = navbarFirstItemSubKeys[idx];
+      });
+
+
+      document.querySelector('#recipes-popular').innerHTML = recipesNavBarList[navbarKeys[0]][navbarFirstItemSubKeys[0]].map(function (val, idx) {
+        return `<li><a href="${val.url}">${val.title}</a></li>`;
+      }).join('');
+
+      document.querySelector('#recipes-cuisines').innerHTML = recipesNavBarList[navbarKeys[0]][navbarFirstItemSubKeys[1]].map(function (val, idx) {
+        return `<li><a href="${val.url}">${val.title}</a></li>`;
+      }).join('');
+
+      document.querySelector('#recipes-category').innerHTML = recipesNavBarList[navbarKeys[0]][navbarFirstItemSubKeys[2]].map(function (val, idx) {
+        return `<li><a href="${val.url}">${val.title}</a></li>`;
+      }).join('');
+
+      document.querySelector('#cookingMethod').innerHTML = recipesNavBarList[navbarKeys[1]].map(function (val, idx) {
+        return `<li><a href="${val.url}">${val.title}</a></li>`;
+      }).join('');
+
+      document.querySelector('#occasions').innerHTML = recipesNavBarList[navbarKeys[2]].map(function (val, idx) {
+        return `<li><a href="${val.url}">${val.title}</a></li>`;
+      }).join('');
+    </script>
+
+    <div class="searchbox">
+      <div class="content">
+        <div class="closebtn slide-toggle"><i class="fas fa-search"></i></div>
+        <h3>Search</h3>
+        <div class="input-group search_all">
+          <input type="text" class="form-control" placeholder="" id="searchKeyword">
+          <div class="input-group-append">
+            <button class="btn btn-search" type="button" id="searchSubmit"><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="search_or">
+          <div class="or"><span>or</span></div>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist" id="searchTags"></ul>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="search_courses">
+            <ul id="search-popular"></ul>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="search_cuisine">
+            <ul id="search-cuisine"></ul>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="search_ingredients">
+            <ul id="search-ingredients"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<!-- Render search box -->
+<script>
+  var recipesNavBarSearchList = {
+    'Courses': [
+      {title: 'appetizer', key: 'appetizer', },
+      {title: 'side', key: 'side', },
+      {title: 'easy entertaining', key: 'easy entertaining', },
+      {title: 'entree', key: 'entree', },
+      {title: 'baking', key: 'baking', },
+    ],
+    'Cuisine': [
+      {title: 'indian recipes', key: 'indian recipes', },
+      {title: 'international recipes', key: 'international recipes', },
+      {title: 'middle eastern recipes', key: 'middle eastern recipes', },
+      {title: 'latin recipes', key: 'latin recipes', },
+      {title: 'chinese recipes', key: 'chinese recipes', },
+    ],
+    'Ingredients': [
+      {title: 'farro', key: 'farro', },
+      {title: 'potato', key: 'potato', },
+      {title: 'chickpeas', key: 'chickpeas', },
+      {title: 'lemon', key: 'lemon', },
+      {title: 'arugula', key: 'arugula', },
+    ]
+  };
+
+  var searchTagKeyDOMList = [
+    'search_courses',
+    'search_cuisine',
+    'search_ingredients',
+  ];
+  document.querySelector('#searchTags').innerHTML = Object.keys(recipesNavBarSearchList).map(function (tag, idx) {
+    var isActive = (idx === 0) ? 'active' : '';
+    return `
+      <li class="nav-item">
+        <a class="nav-link ${isActive}" href="#${searchTagKeyDOMList[idx]}" role="tab" data-toggle="tab">${tag}</a>
+      </li>
+    `;
+  }).join('');
+
+  var recipesNavBarSearchKeys = Object.keys(recipesNavBarSearchList);
+
+  document.querySelector('#search-popular').innerHTML = recipesNavBarSearchList[recipesNavBarSearchKeys[0]].map(function (val, idx) {
+    return `<li class="checkbox"><input data-value="${val.key}" type="checkbox" name="" value="${val.title}" id="cbx1_${idx}"><label for="cbx1_${idx}">${val.title}</label></li>`;
+  }).join('');
+
+  document.querySelector('#search-cuisine').innerHTML = recipesNavBarSearchList[recipesNavBarSearchKeys[1]].map(function (val, idx) {
+    return `<li class="checkbox"><input data-value="${val.key}" type="checkbox" name="" value="${val.title}" id="cbx2_${idx}"><label for="cbx2_${idx}">${val.title}</label></li>`;
+  }).join('');
+
+  document.querySelector('#search-ingredients').innerHTML = recipesNavBarSearchList[recipesNavBarSearchKeys[2]].map(function (val, idx) {
+    return `<li class="checkbox"><input data-value="${val.key}" type="checkbox" name="" value="${val.title}" id="cbx_${idx}"><label for="cbx_${idx}">${val.title}</label></li>`;
+  }).join('');
+
+  document.querySelector(".btn-search").addEventListener("click", function () {
+    window.location.href = "result";
+  });
+</script>
+
+<!-- Handle search box -->
+<script>
+  /*
+  * globalvariablee
+  * */
+  var search = [];
+
+  /*
+  * Search Option
+  * */
+
+  // search option - general function
+  function handleSearchOption(value) {
+    var isRequiredToDelete = search.includes(value)
+    if (isRequiredToDelete) {
+      search = search.filter(function (val, idx) {
+        return val !== value;
+      })
+    } else {
+      search.push(value);
+    }
+
+    // console.log('----------------------');
+    // console.log(action);
+    // console.log(search);
+  }
+
+  // search option
+  var searchOptionDOMList = Array.from(document.querySelector('#search-popular').childNodes).concat(
+    Array.from(document.querySelector('#search-cuisine').childNodes),
+    Array.from(document.querySelector('#search-ingredients').childNodes)
+  );
+
+  searchOptionDOMList.forEach(function (DOM, idx) {
+    DOM.getElementsByTagName('INPUT')[0].addEventListener('click', function (e) {
+      handleSearchOption(e.target.dataset.value);
+    })
+  });
+
+  /*
+  * Search key word and submit button
+  * */
+  document.querySelector('#searchSubmit').addEventListener('click', function (e) {
+    e.preventDefault();
+
+    var searchCriteria = search.join("..");
+
+    var searchKeyword = document.querySelector('#searchKeyword').value;
+    if (searchKeyword) {
+      searchCriteria += '...' +searchKeyword;
+    }
+
+    window.location.href = "/result?search=" + searchCriteria;
+  });
+
+
+</script>
+
+<!-- Render login and logout -->
+<script>
+  function getCookie(name) {
+    var value = "; " + document.cookie;
+    var parts = value.split("; " + name + "=");
+    if (parts.length == 2) return parts.pop().split(";").shift();
+  }
+
+  document.querySelector('#logInOnOff').innerHTML = (!getCookie('token'))
+    ? `<button type="button" id="btnLogin" class="nav-link" data-toggle="modal" data-target="#loginpop">Log in</button>`
+    : `<button type="button" id="logoutpop" class="nav-link" data-toggle="modal" data-target="#logoutpop">Log out</button>`;
+
+  var logoutBtn = document.querySelector('#logoutpop');
+  if (logoutBtn) {
+    logoutBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      window.location.href = "/logout";
+    });
+  }
+</script>
+

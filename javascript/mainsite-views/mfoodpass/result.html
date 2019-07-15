@@ -1,0 +1,143 @@
+<%- include('./layout/header.html', {bodyClass: 'index'}); -%>
+
+
+<div class="content">
+
+  <div class="recipe_cardlist">
+    <div class="container card_container" id="recipeCardListBasic"></div>
+
+    <script>
+      var recipeCardsOrigin = <%- JSON.stringify(recipes) %>;
+      var recipeCardsSortByTotalTime = recipeCardsOrigin.slice().sort(function (a, b) {
+        return b.totalTime - a.totalTime;
+      });
+      var recipeCards = recipeCardsOrigin.slice();
+      var totalPage = Math.ceil(recipeCards.length/8);
+      var recipePerPage = 8;
+
+      // dynamic variable
+      var currentPage = 0;
+      var sortMethod = 'default';
+
+      function renderRecipe_result() {
+        console.log('Render');
+
+        // pagination - render
+        var paginationNumBtn = '';
+        var isPaginationNumBtnActive = false;
+        for (var i = 0; i < totalPage; i++) {
+          isPaginationNumBtnActive = (i === currentPage) ? 'active' : '';
+          paginationNumBtn += ` <a id="page-${i}" data-page="${i}" href="" class="${isPaginationNumBtnActive}"><span>${i+1}</span></a>`;
+        }
+        var paginationDOM = `
+          <a class="pagePrevious" href=""><i class="fas fa-caret-left"></i></a>
+          <a class="pagePrevious" href=""><%= t('Previous') %></a>
+          ${paginationNumBtn}
+          <a class="pageNext" href=""><%= t('Next') %></a>
+          <a class="pageNext" href=""><i class="fas fa-caret-right"></i></a>
+        `;
+
+        // recipe - render
+        var recipesDOM = recipeCards.slice(currentPage*recipePerPage, currentPage*recipePerPage +recipePerPage).map(function (val, idx) {
+          var likeBtn = (val.like)
+            ? `<button data-id="${val.id}" class="btmbox fn_delete" data-toggle="modal" data-target="#removepop"><span><i class="fas fa-times"></i> <%= t('Delete') %></span></button>`
+            : `<button data-id="${val.id}" class="btmbox fn_save" data-toggle="modal" data-target="#savepop"><span><i class="fas fa-plus"></i> <%= t('Save') %></span></button>`;
+          return `
+            <div class="recipe_card col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="recipe_img"><a href="${val.url}"><img src="<%= recipeCdn('') %>${val.img}" class="fitimg"></a></div>
+                <div class="recipe_name">
+                  <i><span class="c1"></span></i>
+                  <p>${val.title}</p>
+                </div>
+                <div class="recipe_btmbox">
+                  <div class="btmbox"><span><i class="far fa-clock"></i> ${val.totalTime} <%= t('Mins') %></span></div>
+                  <div class="btmbox"><span class="count">${val.rate}</span><span><i class="far fa-star"></i> <%= t('Rate') %></span></div>
+                  ${likeBtn}
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        var isSortDefault = (sortMethod === 'default') ? 'active' : '';
+        var isSortTotalTime = (sortMethod === 'totalTime') ? 'active' : '';
+
+        // render
+        document.querySelector('#recipeCardListBasic').innerHTML = `
+          <h3 class="bar">
+            <div class="headline"><span><%= t('Search Result') %></span></div>
+          </h3>
+          <div class="controlbar">
+            <div class="block sorting">
+              <a id="sortBtn-default" href="" class="${isSortDefault}"><%= t('Newest') %></a><span>|</span>
+              <a id="sortBtn-totalTime" href="" class="${isSortTotalTime}"><%= t('Cooking Time') %></a>
+            </div>
+            <div class="block pagenum">${paginationDOM}</div>
+          </div>
+          ${recipesDOM}
+          <div class="controlbar btm"><div class="block pagenum">${paginationDOM}</div></div>
+        `;
+
+        handler();
+      }
+
+    </script>
+
+    <script>
+      function handler() {
+        // pagination - handle action
+        document.querySelectorAll('[id^="page-"]').forEach(function (DOM, val) {
+          DOM.addEventListener('click', function (e) {
+            e.preventDefault();
+            currentPage = parseInt(DOM.dataset.page, 10);
+            renderRecipe_result();
+          });
+        });
+
+        document.querySelectorAll('.pagePrevious').forEach(function (DOM, val) {
+          DOM.addEventListener('click', function (e) {
+            e.preventDefault();
+            var page = (currentPage-1 >= 0) ? currentPage-1 : currentPage;
+            currentPage = parseInt(page, 10);
+            renderRecipe_result();
+          });
+        });
+
+        document.querySelectorAll('.pageNext').forEach(function (DOM, idx) {
+          DOM.addEventListener('click', function (e) {
+            e.preventDefault();
+            var page = (currentPage+1 <= totalPage-1) ? currentPage+1 : currentPage;
+            currentPage = parseInt(page, 10);
+            renderRecipe_result();
+          });
+        });
+
+        document.querySelector('#sortBtn-default').addEventListener('click', function (e) {
+          e.preventDefault();
+          recipeCards = recipeCardsOrigin.slice();
+          sortMethod = 'default';
+          renderRecipe_result();
+        });
+
+        document.querySelector('#sortBtn-totalTime').addEventListener('click', function (e) {
+          e.preventDefault();
+          recipeCards = recipeCardsSortByTotalTime.slice();
+          sortMethod = 'totalTime';
+          renderRecipe_result();
+        });
+
+      }
+    </script>
+
+    <script>
+      renderRecipe_result();
+    </script>
+
+  </div><!-- recipe_cardlist ends -->
+
+</div>
+
+<%- include('./layout/footer.html'); -%>
+</body>
+</html>

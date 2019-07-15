@@ -1,0 +1,222 @@
+<%- include('./layout/header.html', {bodyClass: 'index'}); -%>
+
+<div class="content cooking">
+
+	<div class="recipe_cardlist">
+		<div class="container card_container">
+			<h3 class="bar">
+				<div class="headline" id="recipeTitle"><span>Sweet potato and potato mash recipe</span></div>
+			</h3>
+
+			<div class="col">
+				<div class="col_left">
+					<div class="cooking_mainimg" id="recipeImg">
+						<img src="<%= cdn('img/cooking_mainimg.jpg') %>" class="img-fluid">
+					</div>
+					<p class="cooking_desc" id="recipeDescription">A twist to the traditional mashed potatoes, this recipe adds
+						additional nutrients to the dish with sweet potatoes.</p>
+
+					<div class="cooking_tab">
+
+						<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" href="#cooking_steps" role="tab" data-toggle="tab"><%= t('Steps') %></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#cooking_ingredients" role="tab" data-toggle="tab"><%= t('Ingredients') %></a>
+							</li>
+							<!--<li class="nav-item">
+                <a class="nav-link" href="#cooking_equipment" role="tab" data-toggle="tab">Equipment</a>
+              </li>-->
+						</ul>
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="cooking_steps">
+								<h3><span><%= t('Start Cooking') %></span><span><%= t('- Step by Step -') %></span></h3>
+								<div class="steps" id="recipeStepImg">
+									<div class="stepimg"><img src="<%= cdn('img/cooking_step1.jpg') %>" class="fitimg"><span>1</span>
+									</div>
+								</div>
+								<div class="steplist" id="recipeStepTxt">
+									<p><span>Step 1:</span>A twist to the traditional mashed potatoes</p>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="cooking_ingredients">
+								<h3>Ingredients to serve 4 for Mash</h3>
+								<div class="listbox">
+									<p><i>1</i><span>Potatoes x 2<br>Peeled and sliced</span></p>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="cooking_equipment">
+								<div class="listbox" id="recipeEquipment">
+									<p><i>1</i><span>Chopping Board</span></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- cooking_tab_ends -->
+
+
+				</div>
+
+				<script>
+					var recipeCards = <%- JSON.stringify(recipes) %>;
+
+					document.querySelector('#recipeTitle').innerHTML = `
+            <span>${recipeCards[0].title}</span>
+          `;
+
+					document.querySelector('#recipeImg').innerHTML = `
+            <img src="<%= recipeCdn('') %>${recipeCards[0].img}" class="img-fluid">
+          `;
+
+					document.querySelector('#recipeDescription').innerHTML = `
+            ${recipeCards[0].description}
+          `;
+
+					document.querySelector('#recipeStepImg').innerHTML = recipeCards[0].steps.map(function (val, idx) {
+						if (val.img) {
+							return `
+                <div class="stepimg"><img src="<%= recipeCdn('') %>${val.img}" class="fitimg"><span>${idx + 1}</span></div>
+              `;
+						}
+						if (!val.img) {
+							// return `<div class="stepimg"><span>${idx+1}</span></div>`;
+						}
+					}).join('');
+
+					document.querySelector('#recipeStepTxt').innerHTML = recipeCards[0].steps.map(function (val, idx) {
+						return `
+              <p><span>Step ${idx + 1}:</span>${val.txt}</p>
+            `;
+					}).join('');
+
+					var ingredientsLength = recipeCards[0].ingredients.length;
+					var ingredientsListBox = recipeCards[0].ingredients.map(function (val, idx) {
+						return `
+              <p><i>${idx + 1}</i><span>${val}</span></p>
+            `;
+					}).join('');
+					document.querySelector('#cooking_ingredients').innerHTML = `
+            <h3>Ingredients to serve ${ingredientsLength} for Mash</h3>
+            <div class="listbox">
+              ${ingredientsListBox}
+            </div>
+          `;
+
+				</script>
+
+
+				<div class="col_right">
+					<div class="rating_time">
+						<div id="btnLikeSwitchDiv">
+							<button id="btnLikeSwitch"><span class="addfav"></span></button>
+						</div>
+						<div class="rating">
+							<p class="name"><%= t('Rating') %></p>
+							<div id="recipeRate">
+								<span class="on"><i class="fas fa-star"></i></span><span class="on"><i
+										class="fas fa-star"></i></span><span class="on"><i class="fas fa-star"></i></span><span
+									class="on"><i class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span>
+							</div>
+						</div>
+						<div class="time" id="recipeTime">
+							<p>Prep time: 35 Mins</p>
+							<p>Cook time: 15 Mins</p>
+							<p>Total time: 50 Mins</p>
+						</div>
+					</div>
+					<div class="recipeinfo">
+						<div class="box" id="recipeCategory">
+							<h3>Sweet potato and potato mash recipe</h3>
+							<p><span><%= t('Recipe Category:') %></span>Accompaniments , Brunch Recipes , Dinner Recipes , Healthy food recipes ,
+								Healthy recipes , Healthy vegetable recipes , Healthy vegetarian recipes , Lunch Recipes , Side dishes ,
+								Vegetable recipes , Vegetarian dinner recipes , Vegetarian recipes</p>
+							<p><span><%= t('Cuisine:') %></span><%= t('International Recipes') %></p>
+						</div>
+					</div>
+					<div class="coming">
+						<h3><%= t('Coming Right Up') %></h3>
+						<div id="recipeComingRightUp">
+							<a href="recipe_ingredients" class="comingimg"><span><img src="<%= cdn('img/r02.jpg') %>"
+										class="fitimg"></span>
+								<p>Arayes recipe</p>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<script>
+					var rateOutput = '';
+					for (var i = 0; i < 5; i++) {
+						rateOutput += (recipeCards[0].rate <= i)
+							? `<span><i class="fas fa-star"></i></span>`
+							: `<span class="on"><i class="fas fa-star"></i></span>`;
+					}
+					document.querySelector('#recipeRate').innerHTML = rateOutput;
+
+					document.querySelector('#recipeTime').innerHTML = `
+            <p><span>Prep time</span> ${recipeCards[0].prepTime} <span><%= t('Mins') %></span></p>
+            <p><span>Cook time</span> ${recipeCards[0].cookTime} <span><%= t('Mins') %></span></p>
+            <p><span>Total time</span> ${recipeCards[0].totalTime} <span><%= t('Mins') %></span></p>
+          `;
+
+					var category = recipeCards[0].category.map(function (val, idx) {
+						return `<span style="display: inline-block;">${val}</span>`;
+					}).join(' , ');
+					var cuisine = recipeCards[0].cuisine.map(function (val, idx) {
+						return `<span style="display: inline-block;">${val}</span>`;
+					}).join(' , ');
+					document.querySelector('#recipeCategory').innerHTML = `
+            <h3>${recipeCards[0].title}</h3>
+            <p><span><%= t('Recipe Category:') %></span>${category || '/'}</p>
+            <p><span><%= t('Cuisine:') %></span>${cuisine || '/'}</p>
+          `;
+
+					document.querySelector('#recipeComingRightUp').innerHTML =
+						recipeCards.slice(1).map(function (val, idx) {
+							return `
+                <a href="${val.url}" class="comingimg">
+                <span><img src="<%= recipeCdn('') %>${val.img}" class="fitimg"></span>
+                <p>${val.title}</p>
+                </a>
+              `;
+						}).join('');
+
+
+					var renderRecipes_details = function renderRecipes() {
+						document.querySelector('#btnLikeSwitchDiv').innerHTML = (recipeCards[0].like)
+							? `<button id="btnLikeSwitch" class="fn_delete" data-id="${recipeCards[0].id}"><span class="addfav"></span></button>`
+							: `<button id="btnLikeSwitch" class="fn_save"   data-id="${recipeCards[0].id}"><span class="addfav"></span></button>`;
+
+						handleRecipes();
+					};
+
+					var handleRecipes = function handleRecipes() {
+						document.querySelectorAll('.fn_save').forEach(function (DOM, idx) {
+							handleLikeBtn(DOM, idx, 'like');
+						});
+						document.querySelectorAll('.fn_delete').forEach(function (DOM, idx) {
+							DOM.addEventListener('click', function (e) {
+								var recipe_id = recipeCards[0].id;
+
+								// set recipe_id data to removeRecipeToFavourBtn
+								document.querySelector('#removeRecipeToFavourBtn').dataset.id = recipe_id;
+
+								// show delete model
+								$('#removepop').modal('show');
+							});
+						});
+					};
+				</script>
+
+			</div><!-- col ends -->
+		</div>
+
+	</div><!-- recipe_cardlist ends -->
+</div>
+
+</div>
+
+<%- include('./layout/footer.html'); -%>
+</body>
+
+</html>

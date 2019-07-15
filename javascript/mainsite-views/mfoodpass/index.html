@@ -1,0 +1,202 @@
+<%- include('./layout/header.html', {bodyClass: 'index'}); -%>
+
+<div class="content index">
+
+  <div class="mainvisual">
+    <div class="mv">
+      <div id="carouselMain" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselMain" data-slide-to="1"></li>
+          <li data-target="#carouselMain" data-slide-to="2"></li>
+          <li data-target="#carouselMain" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img class="d-block w-100" src="<%= cdn('img/hero1.jpg') %>" alt=""></div>
+          <div class="carousel-item"><img class="d-block w-100" src="<%= cdn('img/hero2.jpg') %>" alt=""></div>
+          <div class="carousel-item"><img class="d-block w-100" src="<%= cdn('img/hero3.jpg') %>" alt=""></div>
+          <div class="carousel-item"><img class="d-block w-100" src="<%= cdn('img/hero4.jpg') %>" alt=""></div>
+          <h1>Eating is necessity but cooking is an art</h1>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+  </div>
+
+  <div class="recipe_cardlist">
+    <div class="container card_container" id="recipeCardListBasic"></div>
+    <script>
+      var recipeCards = <%- JSON.stringify(recipes) %>;
+
+      var renderRecipes_index_basic = function renderRecipes_index_basic() {
+        document.querySelector('#recipeCardListBasic').innerHTML = recipeCards.slice(0, 8).map(function (val, idx) {
+          var time = function time() {
+            var h = `${Math.floor(val.totalTime/60)}`;
+            var m = `${val.totalTime % 60}`;
+            return (h >0) ? `${h}<%= t('H') %> ${m}<%= t('M') %>` : `${m}<%= t('Mins') %>`;
+          }
+
+          var likeBtn = (val.like)
+            ? `<button data-id="${val.id}" class="btmbox fn_delete" data-toggle="modal" data-target="#removepop"><span><i class="fas fa-times"></i> Delete</span></button>`
+            : `<button data-id="${val.id}" class="btmbox fn_save"><span><i class="fas fa-plus"></i> Save</span></button>`;
+
+          return `
+            <div class="recipe_card col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="recipe_img"><a href="${val.url}"><img src="<%= recipeCdn('') %>${val.img}" class="fitimg"></a></div>
+                <div class="recipe_name">
+                  <i><span class="c1"></span></i>
+                  <p>${val.title}</p>
+                </div>
+                <div class="recipe_btmbox">
+                  <div class="btmbox"><span><i class="far fa-clock"></i>${time()}</span></div>
+                  <div class="btmbox"><span class="count">${val.rate}</span><span><i class="far fa-star"></i> Rate</span></div>
+                  ${likeBtn}
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        return true;
+      }
+    </script>
+  </div><!-- recipe_cardlist ends -->
+
+
+  <div class="recipe_highlight">
+    <div class="container card_container" id="favoriteCuisinesCardList">
+      <h3 class="bar">
+        <div class="headline"><span>Favorite cuisines</span></div>
+      </h3>
+      <div class="desc">
+        <p class="link"><a href="favorite_cuisines">Make your choice</a></p>
+        <p>Have a mini fiesta on your dining table with food from various regions. Take your backpacks and go on a food adventure with our recipes.</p>
+      </div>
+      <script>
+        var recipesByTagsLength = <%- JSON.stringify(recipesByTagsLength) %>;
+        var favoriteCuisines = [
+          {title: 'Indian Recipes', key: 'indian recipes', img: 'r01.jpg', description: 'Every Indian meal is a feast for a food lover. Indian food is a glorious blend of spices and each food has an unique flavour and aroma. Immerse yourself in our scrumptious indian recipes.', url: '/classic_recipe?tag=indian recipes'},
+          {title: 'International Recipes', key: 'international recipes', img: 'r02.jpg', description: 'Love to experiment with food? Love eating different cuisines? Our international recipes section takes bits and pieces from every region to help you cook a lavish spread for your family and friends', url: '/classic_recipe?tag=international recipes'},
+          {title: 'Middle Eastern Recipes', key: 'middle eastern recipes', img: 'r03.jpg', description: 'Middle eastern cuisine is famous for its diversity. It is Fresh, wholesome, and rich. Dive into our Middle east section to find delectable and authentic middle eastern recipes.',  url: '/classic_recipe?tag=middle eastern recipes'},
+          {title: 'Latin Recipes', key: 'latin recipes', img: 'r04.jpg', description: 'Italian cuisine has much more to offer than just pizzas and pastas. Fresh produce and simple cooking is what distinguishes it from other cuisine. Find a range of hearty and healthy italian recipes in this section.', url: '/classic_recipe?tag=latin recipes'},
+        ];
+        var output = favoriteCuisines.map(function (val, idx) {
+          return `
+            <div class="recipe_card col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="recipe_img"><a href="${val.url}"><img src="<%= cdn('img/${val.img}') %>" class="fitimg"></a></div>
+                <div class="recipe_desc">
+                  <p class="title">${val.title}</p>
+                  <p class="content">${val.description}</p>
+                  <p class="count"><span>${recipesByTagsLength[val.key]}</span> <span>Recipes</span></p>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+        document.querySelector('#favoriteCuisinesCardList').insertAdjacentHTML('beforeend', output);
+      </script>
+    </div>
+  </div>
+
+  <div class="recipe_highlight">
+    <div class="container card_container" id="featuredCollections">
+      <h3 class="bar">
+        <div class="headline"><span>Featured Collections</span></div>
+      </h3>
+      <div class="desc">
+        <p class="link"><a href="featured_collection">View more</a></p>
+        <p>Want an easy way to find recipes? Try our collection section where every type of food is clustered for your convenience.</p>
+      </div>
+
+      <script>
+        var recipesByTagsLength = <%- JSON.stringify(recipesByTagsLength) %>;
+        var featuredCollections = [
+          {title: 'Birthdays', key: 'birthdays', img: 'r05.jpg', description: '', url: '/classic_recipe?tag=birthdays'},
+          {title: 'Christmas', key: 'christmas', img: 'r06.jpg', description: '', url: '/classic_recipe?tag=christmas'},
+          {title: 'Thanksgiving', key: 'thanksgiving', img: 'r07.jpg', description: '', url: '/classic_recipe?tag=thanksgiving'},
+          {title: 'Easter', key: 'easter', img: 'r08.jpg', description: '', url: '/classic_recipe?tag=easter'},
+        ];
+        var output = featuredCollections.map(function (val, idx) {
+          return `
+            <div class="recipe_card col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="recipe_img"><a href="${val.url}"><img src="<%= cdn('img/${val.img}') %>" class="fitimg"></a></div>
+                <div class="recipe_desc">
+                  <p class="title">${val.title}</p>
+                  <p class="content">${val.description}</p>
+                  <p class="count"><span>${recipesByTagsLength[val.key]}</span> <span>Recipes</span></p>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+        document.querySelector('#featuredCollections').insertAdjacentHTML('beforeend', output);
+      </script>
+    </div>
+  </div>
+
+  <div class="recipe_highlight">
+    <div class="container card_container" id="classicRecipes">
+      <h3 class="bar">
+        <div class="headline"><span>Classic recipes</span></div>
+      </h3>
+      <div class="desc">
+        <p class="link"><a href="/classic_recipe?tag=american recipes">All time favorites</a></p>
+        <p>Comfort food is what resonates in our mind when we think of classic recipes. Are you looking for classic, traditional and authentic recipes? Then, go ahead to find easy step by step recipes.</p>
+      </div>
+      <script>
+        var renderRecipes_index_favorites = function renderRecipes_index_favorites() {
+          var output = recipeCards.slice(8, 12).map(function (val, idx) {
+            var time = function time() {
+              var h = `${Math.floor(val.totalTime/60)}`;
+              var m = `${val.totalTime % 60}`;
+              return (h >0) ? `${h}<%= t('H') %> ${m}<%= t('M') %>` : `${m}<%= t('Mins') %>`;
+            }
+
+            var likeBtn = (val.like)
+              ? `<button data-id="${val.id}" class="btmbox fn_delete" data-toggle="modal" data-target="#removepop"><span><i class="fas fa-times"></i> Delete</span></button>`
+              : `<button data-id="${val.id}" class="btmbox fn_save"><span><i class="fas fa-plus"></i> Save</span></button>`;
+
+            return `
+            <div class="recipe_card col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="recipe_img"><a href="${val.url}"><img src="<%= recipeCdn('') %>${val.img}" class="fitimg"></a></div>
+                <div class="recipe_name">
+                  <i><span class="c1"></span></i>
+                  <p>${val.title}</p>
+                </div>
+                <div class="recipe_btmbox">
+                  <div class="btmbox"><span><i class="far fa-clock"></i>${time()}</span></div>
+                  <div class="btmbox"><span class="count">${val.rate}</span><span><i class="far fa-star"></i> Rate</span></div>
+                  ${likeBtn}
+                </div>
+              </div>
+            </div>
+          `;
+          }).join('');
+
+          // Clear all previous card
+          var deleteElements = document.querySelectorAll('#classicRecipes .recipe_card');
+          if (deleteElements) {
+            deleteElements.forEach(function (DOM, idx) {
+              document.querySelector('#classicRecipes').removeChild(DOM);
+            });
+          }
+
+          document.querySelector('#classicRecipes').insertAdjacentHTML('beforeend', output);
+
+          return true;
+        }
+      </script>
+    </div>
+  </div>
+
+
+</div>
+
+<%- include('./layout/footer.html'); -%>
+
+</body>
+</html>

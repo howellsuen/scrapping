@@ -1,0 +1,119 @@
+<%- include('./layout/header.html', {bodyClass: 'index'}); -%>
+
+
+<div class="content recipebook">
+
+  <div class="recipe_cardlist">
+    <div class="container card_container" id="recipeCardListBasic"></div>
+
+    <script>
+      var recipeCards = <%- JSON.stringify(recipes) %>;
+      var currentPage = 0;
+      var totalPage = Math.ceil(recipeCards.length/8);
+      var recipePerPage = 8;
+
+      function renderRecipe_recipeBook() {
+        console.log('Render');
+
+        // pagination - render
+        var paginationNumBtn = '';
+        var isPaginationNumBtnActive = false;
+        for (var i = 0; i < totalPage; i++) {
+          isPaginationNumBtnActive = (i === currentPage) ? 'active' : '';
+          paginationNumBtn += ` <a id="page-${i}" data-page="${i}" href="" class="${isPaginationNumBtnActive}"><span>${i+1}</span></a>`;
+        }
+        var paginationDOM = `
+          <a class="pagePrevious" href=""><i class="fas fa-caret-left"></i></a>
+          <a class="pagePrevious" href=""><%= t('Previous') %></a>
+          ${paginationNumBtn}
+          <a class="pageNext" href=""><%= t('Next') %></a>
+          <a class="pageNext" href=""><i class="fas fa-caret-right"></i></a>
+        `;
+
+        // recipe - render
+        var recipesDOM = recipeCards.slice(currentPage*recipePerPage, currentPage*recipePerPage +recipePerPage).map(function (val, idx) {
+          var time = function time() {
+            var h = `${Math.floor(val.totalTime/60)}`;
+            var m = `${val.totalTime % 60}`;
+            return (h >0) ? `${h}<%= t('H') %> ${m}<%= t('M') %>` : `${m}<%= t('Mins') %>`;
+          }
+
+          var likeBtn = (val.like)
+            ? `<button data-id="${val.id}" class="btmbox fn_delete" data-toggle="modal" data-target="#removepop"><span><i class="fas fa-times"></i> <%= t('Delete') %></span></button>`
+            : `<button data-id="${val.id}" class="btmbox fn_save" data-toggle="modal" data-target="#savepop"><span><i class="fas fa-plus"></i> <%= t('Save') %></span></button>`;
+
+          return `
+              <div class="recipe_card col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="box">
+                  <div class="recipe_img"><a href="${val.url}"><img src="<%= recipeCdn('') %>${val.img}" class="fitimg"></a></div>
+                  <div class="recipe_name">
+                    <i><span class="c1"></span></i>
+                    <p>${val.title}</p>
+                  </div>
+                  <div class="recipe_btmbox">
+                    <div class="btmbox"><span><i class="far fa-clock"></i>${time()}</span></div>
+                    <div class="btmbox"><span class="count">${val.rate}</span><span><i class="far fa-star"></i> <%= t('Rate') %></span></div>
+                    ${likeBtn}
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('');
+
+        // render
+        document.querySelector('#recipeCardListBasic').innerHTML = `
+          <h3 class="bar">
+            <div class="headline"><span><%= t('My Recipe Book') %></span></div>
+          </h3>
+          <div class="controlbar"><div class="block pagenum">${paginationDOM}</div></div>
+          ${recipesDOM}
+          <div class="controlbar btm"><div class="block pagenum">${paginationDOM}</div></div>
+        `;
+
+        handler();
+      }
+
+    </script>
+
+    <script>
+      function handler() {
+        // pagination - handle action
+        document.querySelectorAll('[id^="page-"]').forEach(function (DOM, val) {
+          DOM.addEventListener('click', function (e) {
+            e.preventDefault();
+            currentPage = parseInt(DOM.dataset.page, 10);
+            renderRecipe_recipeBook();
+          });
+        });
+
+        document.querySelectorAll('.pagePrevious').forEach(function (DOM, val) {
+          DOM.addEventListener('click', function (e) {
+            e.preventDefault();
+            var page = (currentPage-1 >= 0) ? currentPage-1 : currentPage;
+            currentPage = parseInt(page, 10);
+            renderRecipe_recipeBook();
+          });
+        });
+
+        document.querySelectorAll('.pageNext').forEach(function (DOM, val) {
+          DOM.addEventListener('click', function (e) {
+            e.preventDefault();
+            var page = (currentPage+1 <= totalPage-1) ? currentPage+1 : currentPage;
+            currentPage = parseInt(page, 10);
+            renderRecipe_recipeBook();
+          });
+        });
+      }
+    </script>
+
+    <script>
+      renderRecipe_recipeBook();
+    </script>
+
+  </div><!-- recipe_cardlist ends -->
+
+</div>
+
+<%- include('./layout/footer.html'); -%>
+</body>
+</html>

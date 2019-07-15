@@ -1,0 +1,48 @@
+<%- include('./layout/header.html', {bodyClass: 'index'}); -%>
+
+
+<div class="content new">
+
+  <div class="recipe_cardlist">
+    <div class="container card_container" id="featuredCollectionList">
+      <h3 class="bar">
+        <div class="headline"><span><%= t("New Collections") %></span></div>
+      </h3>
+    </div>
+  </div><!-- recipe_cardlist ends -->
+
+  <script>
+    var recipesByTagsLength = <%- JSON.stringify(recipesByTagsLength) %>;
+    var featuredCollectionList = [
+      {title: '<%= t("Birthdays") %>', key:'birthdays', img:'r05.jpg', description: '', url: '/classic_recipe?tag=birthdays'},
+      {title: '<%= t("Christmas") %>', key:'christmas', img:'r06.jpg', description: '', url: '/classic_recipe?tag=christmas'},
+      {title: '<%= t("Easter") %>', key:'easter', img:'r08.jpg', description: '', url: '/classic_recipe?tag=easter'},
+      {title: '<%= t("Halloween") %>', key:'halloween', img:'new05.jpg', description: '', url: '/classic_recipe?tag=halloween'},
+    ];
+
+    var output = featuredCollectionList.map(function (val, idx) {
+      return `
+        <div class="recipe_card col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <div class="recipe_img"><a href="${val.url}"><img src="<%= cdn('img/${val.img}') %>" class="fitimg"></a></div>
+            <div class="recipe_desc">
+              <p class="title">${val.title}</p>
+              <p class="content">${val.description}</p>
+            </div>
+            <div class="recipe_btmbox">
+              <div class="btmbox"><span class="count">${recipesByTagsLength[val.key]}</span><span><i class="far fa-star"></i> <%= t('Recipe(s)') %></span></div>
+              <a href="recipe_ingredients" class="btmbox"><span><i class="fas fa-gift"></i> <%= t('Free') %></span></a>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    document.querySelector('#featuredCollectionList').insertAdjacentHTML('beforeend', output);
+  </script>
+
+</div>
+
+<%- include('./layout/footer.html'); -%>
+</body>
+</html>

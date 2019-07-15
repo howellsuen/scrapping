@@ -1,0 +1,112 @@
+<%- include('./layout/header.html', {bodyClass: 'index'}); -%>
+
+<div class="content classic">
+
+  <div class="recipe_cardlist">
+    <div class="container card_container">
+      <h3 class="bar">
+        <div class="headline"><span>Classic Recipes | Traditional And Authentic Recipes</span></div>
+      </h3>
+
+      <div class="col">
+        <div class="col_left" id="recipeCardListBasic"></div>
+        <script>
+          var recipeCards = <%- JSON.stringify(recipes) %>;
+          var renderRecipes_classicRecipe_basic = function renderRecipes_classicRecipe_basic() {
+            document.querySelector('#recipeCardListBasic').innerHTML = recipeCards.map(function (val, idx) {
+              var time = function time() {
+                var h = `${Math.floor(val.totalTime/60)}`;
+                var m = `${val.totalTime % 60}`;
+                return (h >0) ? `${h}<%= t('H') %> ${m}<%= t('M') %>` : `${m}<%= t('Mins') %>`;
+              }
+
+              var likeBtn = (val.like)
+                ? `<button data-id="${val.id}" class="btmbox fn_delete" data-toggle="modal" data-target="#removepop"><span><i class="fas fa-times"></i> Delete</span></button>`
+                : `<button data-id="${val.id}" class="btmbox fn_save" data-toggle="modal" data-target="#savepop"><span><i class="fas fa-plus"></i> Save</span></button>`;
+
+              return `
+                <div class="recipe_card col-12 col-sm-6 col-md-4 col-lg-4">
+                  <div class="box">
+                    <div class="recipe_img"><a href="${val.url}"><img src="<%= recipeCdn('') %>${val.img}" class="fitimg"></a></div>
+                    <div class="recipe_name">
+                      <i><span class="c1"></span></i>
+                      <p>${val.title}</p>
+                    </div>
+                    <div class="recipe_btmbox">
+                      <div class="btmbox"><span><i class="far fa-clock"></i>${time()}</span></div>
+                      <div class="btmbox"><span class="count">${val.rate}</span><span><i class="far fa-star"></i> Rate</span></div>
+                      ${likeBtn}
+                    </div>
+                  </div>
+                </div>
+              `;
+            }).join('');
+
+            return true;
+          };
+        </script>
+
+        <div class="col_right">
+
+          <div class="tab_latestpop">
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" href="#tab_latest" role="tab" data-toggle="tab">Latest</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tab_popular" role="tab" data-toggle="tab">Popular</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="tab_latest"></div>
+              <script>
+                var recipeCardsLatest = <%- JSON.stringify(recipeCardsLatest) %>;
+                document.querySelector('#tab_latest').innerHTML = recipeCardsLatest.map(function (val, idx) {
+                  return `
+                    <div class="tabbox">
+                      <a href="${val.url}" class="linkbox">
+                        <p class="linkimg"><img src="<%= recipeCdn('') %>${val.img}" class="fitimg"></p>
+                        <div class="linkcontent">
+                          <p class="desc">${val.title}</p>
+                          <p class="date">${val.date}</p>
+                        </div>
+                      </a>
+                    </div>
+                  `;
+                });
+              </script>
+
+              <div role="tabpanel" class="tab-pane fade" id="tab_popular"></div>
+              <script>
+                var recipeCardsPopular = <%- JSON.stringify(recipeCardsPopular) %>;
+                document.querySelector('#tab_popular').innerHTML = recipeCardsPopular.map(function (val, idx) {
+                  return `
+                    <div class="tabbox">
+                      <a href="${val.url}" class="linkbox">
+                        <p class="linkimg"><img src="<%= recipeCdn('') %>${val.img}" class="fitimg"></p>
+                        <div class="linkcontent">
+                          <p class="desc">${val.title}</p>
+                          <p class="date">${val.date}</p>
+                        </div>
+                      </a>
+                    </div>
+                  `;
+                });
+              </script>
+            </div>
+          </div>
+          <!-- tab_latest_popular ends -->
+
+        </div>
+
+      </div><!-- col ends -->
+    </div><!-- card_container ends -->
+
+  </div>
+</div><!-- recipe_cardlist ends -->
+
+</div>
+
+<%- include('./layout/footer.html'); -%>
+</body>
+</html>

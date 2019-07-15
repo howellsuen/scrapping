@@ -1,0 +1,214 @@
+<footer>
+  <div class="container">
+    <div class="logo"><span><img src="<%= cdn('img/logo.png') %>" class="img-fluid"></span></div>
+    <div class="link" id ='footerNavbarDOM'>
+      <a href="/index">Home</a>
+      <a href="/terms">Terms & Conditions</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/contactus">Contact Us</a>
+    </div>
+    <script>
+      var footerNavbarList = [
+        {title: 'Home', url: '/index', },
+        {title: 'Terms & Conditions', url: '/terms', },
+        {title: 'Privacy Policy', url: '/privacy', },
+        {title: 'Contact Us', url: '/contactus', },
+      ];
+      document.querySelector('#footerNavbarDOM').innerHTML = footerNavbarList.map(function (val ,dix) {
+        return `
+          <a href="${val.url}">${val.title}</a>
+        `;
+      }).join('');
+    </script>
+    <div class="copyright">© 2019 mfoodpass. <span>All Rights Reserved.</span></div>
+  </div>
+</footer>
+
+<!-- Pop: Login -->
+<div class="modal fade" id="loginpop">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button type="button" class="closepop" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      <div class="modal-header">
+        <h4 class="modal-title">Login</h4>
+      </div>
+      <form class="modal-body" id="signinForm" action="/" method="get">
+        <p>Get kitchen tested recipes, meal ideas and more</p>
+        <input id="msisdn" type="text" name="msisdn" class="form-control" placeholder="Enter your mobile number">
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Pop: Saved -->
+<div class="modal fade" id="savepop">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button type="button" class="closepop" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      <div class="modal-header">
+        <h4 class="modal-title">Saved</h4>
+      </div>
+      <div class="modal-body">
+        <p>This recipe is already in you Recipe Book.</p>
+        <a href="/recipebook">
+          <button type="button" class="btn">View Recipe Book</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pop: Remove -->
+<div class="modal fade" id="removepop">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button type="button" class="closepop" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      <div class="modal-body">
+        <p>Are you sure to remove this from your Recipe Book?</p>
+        <div class="btngrp">
+          <button type="button" class="btn" id="removeRecipeToFavourBtn">Yes</button>
+          <button type="button" class="btn" data-dismiss="modal">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- development team script -->
+
+<!-- Handle recipe rendering and like, unlike event listener -->
+<script>
+  /*
+  * Delete recipe from favour
+  * change delete button data set id
+  * */
+  function handleUnlikeRecipe() {
+    document.querySelectorAll('.btmbox.fn_delete').forEach(function (DOM, idx) {
+      DOM.addEventListener('click', function (e) {
+        // click button's text or button
+        var recipe_id = e.target.parentNode.dataset.id || e.target.dataset.id;
+
+        // set recipe_id data to removeRecipeToFavourBtn
+        document.querySelector('#removeRecipeToFavourBtn').dataset.id = recipe_id;
+      });
+    });
+  }
+
+  // handle unlike button
+  var DOM = document.querySelector('#removeRecipeToFavourBtn');
+  var idx = 0;
+  handleLikeBtn(DOM, idx, 'unlike');
+
+  /*
+  * Add recipe to favour
+  * */
+  function handleLikeRecipe() {
+    document.querySelectorAll('.btmbox.fn_save').forEach(function (DOM, idx) {
+      handleLikeBtn(DOM, idx, 'like');
+    });
+  }
+
+
+  /*
+  * render all recipes
+  * */
+  function renderRecipes() {
+    // index.html
+    if (typeof renderRecipes_index_favorites !== 'undefined') {
+      renderRecipes_index_favorites();
+      console.log('Render - renderRecipes_index_favorites()');
+    }
+    // index.html
+    if (typeof renderRecipes_index_favorites !== 'undefined') {
+      renderRecipes_index_basic();
+      console.log('Render - renderRecipes_index_basic()');
+    }
+    // classic_recipe.html
+    if (typeof renderRecipes_classicRecipe_basic !== 'undefined') {
+      renderRecipes_classicRecipe_basic();
+      console.log('Render - renderRecipes_classicRecipe_basic()');
+    }
+    // recipebook.html
+    if (typeof renderRecipe_recipeBook !== 'undefined') {
+      renderRecipe_recipeBook();
+      console.log('Render - renderRecipe_recipeBook()');
+    }
+    // result.html
+    if (typeof renderRecipe_result !== 'undefined') {
+      renderRecipe_result();
+      console.log('Render - renderRecipe_result()');
+    }
+
+    // recipe_ingredients.html
+    if (typeof renderRecipes_details !== 'undefined') {
+      renderRecipes_details();
+      console.log('Render - renderRecipes_details()');
+    }
+
+    // add event listener
+    handleLikeRecipe();
+    handleUnlikeRecipe();
+  }
+  renderRecipes();
+</script>
+
+
+<!-- Handle login and logout -->
+<script>
+  document.querySelector('#signinForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    var msisdn = document.querySelector('#msisdn').value;
+    var body = {msisdn: msisdn};
+
+    fetch(`/login`, {
+      method: 'POST', // *GET, POST, PUT, DELETE, etc.
+      mode: 'cors', // no-cors, cors, *same-origin
+      cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+      credentials: 'same-origin', // include, *same-origin, omit
+      headers: {
+        'Content-Type': 'application/json',
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      redirect: 'follow', // manual, *follow, error
+      referrer: 'no-referrer', // no-referrer, *client
+      body: JSON.stringify(body), // body data type must match "Content-Type" header
+    })
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function (json) {
+        if (json.action === 'redirect') {
+          document.cookie = 'token=' + json.token;
+          window.location.href = json.next;
+        }
+
+        if (json.action === 'error') {
+          alert('Error. please try again.');
+        }
+      });
+  });
+</script>
+
+<!-- Handle redirect to login -->
+<script>
+  var getParameterByName = function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  };
+
+  if (getParameterByName('login')) {
+    $('#loginpop').modal('show');
+  }
+</script>
+
+
+<!-- Scripts -->
+<script src="<%= cdn('js/custom.js') %>"></script>
+
