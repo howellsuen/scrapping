@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "json2csv": "^4.5.2",
     "puppeteer": "^1.18.0",
     "uuid": "^3.3.2",
     "ytdl-core": "^0.29.3"

@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
-const ytdl = require('ytdl-core');
+// const ytdl = require('ytdl-core');
 const uuidv1 = require('uuid/v1');
 
 const crawlFitnessData = async () => {
@@ -27,8 +27,8 @@ const crawlFitnessData = async () => {
 					detailObject.duration = detailList.children[0].children[1].textContent
 					detailObject.calorieBurn = detailList.children[1].children[1].textContent
 					detailObject.difficulty = detailList.children[2].children[1].textContent
-					detailObject.equipment = detailList.children[3].children[1].textContent.split(",")
-					detailObject.trainingType = detailList.children[4].children[1].textContent.split(",")
+					detailObject.equipment = detailList.children[3].children[1].textContent.split(",").map(e => e.trim())
+					detailObject.trainingType = detailList.children[4].children[1].textContent.split(",").map(e => e.trim())
 
 					const bodyFocus = document.querySelector("div.core-focus span.demi").textContent;
 					const bodyFocusIconClassName = document.querySelector("div.core-focus i").classList[1]
@@ -40,15 +40,15 @@ const crawlFitnessData = async () => {
 				const id = uuidv1()
 				const title = await page.$eval('header#videoArticle h1.heading', h1 => h1.textContent)
 				const videoUrl = await page.$eval('div.responsive-video iframe', iframe => iframe.src)
-				await ytdl(videoUrl, { filter: (format) => format.container === 'mp4', quality: 'highest' })
-					.pipe(fs.createWriteStream(`./videos/${id}_video.mp4`));
-				const videoStoragePath = `videos/${id}_video.mp4`
+				// await ytdl(videoUrl, { filter: (format) => format.container === 'mp4', quality: 'highest' })
+				// 	.pipe(fs.createWriteStream(`./videos/${id}_video.mp4`));
+				// const videoStoragePath = `videos/${id}_video.mp4`
 				results.push({
 					id,
 					title,
 					workoutDetails,
 					videoUrl,
-					videoStoragePath
+					// videoStoragePath
 				})
 			}
 			await fs.writeFile('./fitness.json',

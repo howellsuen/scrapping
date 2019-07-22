@@ -10,6 +10,8 @@ node_modules
 ehthumbs.db
 Thumbs.db
 .history
+
 # Download files #
 ######################
 javascript/fitness-crawling/videos
+*.zip
