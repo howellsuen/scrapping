@@ -1,7 +1,7 @@
 const fs = require("fs");
 
+const jsonToCsv = require('./jsonToCsv')
 const fitnessData = require('./fitness-all.json');
-// const fileNames = ['a', 'b', 'c', 'd'];
 
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -14,11 +14,15 @@ const shuffleArray = (array) => {
 const splitJson = async() => {
   try {
     const shuffledJson = shuffleArray(fitnessData)
-    for (let i = 0; i < 580; i += 145) {
+    const randomPool = shuffledJson.slice(0, 80)
+    for (let i = 80; i < 580; i += 100) {
+      const randomData = shuffleArray(randomPool).slice(0, 30)
+      const uniqueData = shuffledJson.slice(i, i + 100)
       await fs.writeFile(`./fitness-${i}.json`,
-        JSON.stringify(shuffledJson.slice(i, i + 145)),
+        JSON.stringify(uniqueData.concat(randomData)),
         function(err) {
           if (err) throw err;
+          jsonToCsv(`fitness-${i}`)
         }
       )
     }

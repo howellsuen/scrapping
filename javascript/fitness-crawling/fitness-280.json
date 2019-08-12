@@ -1,0 +1,3243 @@
+[{
+    "id": "e81b62a0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Yoga Cardio Blend - Yoga Inspired Cardio and Toning Workout",
+    "workoutDetails": {
+      "duration": "15 Minutes",
+      "calorieBurn": "90-120",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/jT0Hs2rUKNI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/e81b62a0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "1550df20-ac30-11e9-8a69-bb4b29648562",
+    "title": "HIIT Fat Blaster with Warm Up Cardio - High Intensity Interval Training Workout",
+    "workoutDetails": {
+      "duration": "8 Minutes",
+      "calorieBurn": "90-126",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/jCQBncO-SzA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/1550df20-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "d327ba20-ac2e-11e9-8a69-bb4b29648562",
+    "title": "10 Minute Abs Workout: At Home Pilates Abs Workout for a Healthy Back",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "42-77",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/0CQ7riVMNJc?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/d327ba20-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "1de20470-ac30-11e9-8a69-bb4b29648562",
+    "title": "Fitness Blender Total Body Barre Workout - 39 Minute Barre Workout Video",
+    "workoutDetails": {
+      "duration": "39 Minutes",
+      "calorieBurn": "273-444",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Barre",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Lower Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/OC9VbwyEG8U?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/1de20470-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "f1d17560-ac2e-11e9-8a69-bb4b29648562",
+    "title": "10 Minute No Equipment Upper Body Workout - Complete Upper Body Workout Without Weights",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "48-80",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/HRvFxrFGqA4?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/f1d17560-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "back",
+      "chest",
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "159f69c0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Upper Body Strength Training - At Home Upper Body Workout with Dumbbells",
+    "workoutDetails": {
+      "duration": "16 Minutes",
+      "calorieBurn": "84-141",
+      "difficulty": "3/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/W91DKaoiJRk?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/159f69c0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "back",
+      "chest",
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "0eb6f5f0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Cardio Butt Buster - No Excuses, No Equipment Cardio Workout at Home",
+    "workoutDetails": {
+      "duration": "9 Minutes",
+      "calorieBurn": "72-108",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/EfcrSJwjZzg?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/0eb6f5f0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "leg"
+    ]
+  },
+  {
+    "id": "eecbaf70-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Lower Body Pilates Workout - Butt and Thigh Workout",
+    "workoutDetails": {
+      "duration": "33 Minutes",
+      "calorieBurn": "127-197",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Pilates"
+      ],
+      "bodyFocus": "Lower Body,  Core",
+      "bodyFocusIconClassName": "-focus-core_lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/BLSpUtiDcSo?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/eecbaf70-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "34d5fbb0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Upper Body HIIT Workout - The 4 Best Exercises to get Rid of Flabby Arms",
+    "workoutDetails": {
+      "duration": "8 Minutes",
+      "calorieBurn": "34-61",
+      "difficulty": "3/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "HIIT",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/VrSbzlkiGN0?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/34d5fbb0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "triceps",
+      "biceps",
+      "shoulder"
+    ]
+  },
+  {
+    "id": "21df97e0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Low Impact HIIT Workout",
+    "workoutDetails": {
+      "duration": "7 Minutes",
+      "calorieBurn": "35-49",
+      "difficulty": "2/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/mY-_xYd7nXU?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/21df97e0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "bdf194f0-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Low Impact Cardio and Abs Workout with Warm Up and Cool Down",
+    "workoutDetails": {
+      "duration": "39 Minutes",
+      "calorieBurn": "147-338",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Core,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/BGP9J0Nn2Hw?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/bdf194f0-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "abs"
+    ]
+  },
+  {
+    "id": "3f638d40-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Day 1: Fitness Blender's 5 Day Workout Challenge to Burn Fat & Build Lean Muscle",
+    "workoutDetails": {
+      "duration": "48 Minutes",
+      "calorieBurn": "262-533",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/IR31lyaxJE4?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/3f638d40-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body",
+      "cardio"
+    ]
+  },
+  {
+    "id": "e8ad6970-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Kettlebell 'til you Drop - Total Body Kettlebell Workout Video",
+    "workoutDetails": {
+      "duration": "40 Minutes",
+      "calorieBurn": "321-522",
+      "difficulty": "5/5",
+      "equipment": [
+        "Dumbbell",
+        "Kettlebell"
+      ],
+      "trainingType": [
+        "Kettlebell",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Lower Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/4wla9HNwbzA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/e8ad6970-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "cc592c60-ac2e-11e9-8a69-bb4b29648562",
+    "title": "No Equipment Upper Body Workout with Warm Up and Cool Down",
+    "workoutDetails": {
+      "duration": "36 Minutes",
+      "calorieBurn": "137-268",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body,  Core",
+      "bodyFocusIconClassName": "-focus-core_upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/n-gj7ZOHrU0?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/cc592c60-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "back",
+      "chest",
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "4b4520a0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Toning & Cardio Pyramid Jump Rope Workout Routine",
+    "workoutDetails": {
+      "duration": "14 Minutes",
+      "calorieBurn": "112-196",
+      "difficulty": "2/5",
+      "equipment": [
+        "Jump Rope"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Lower Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/gO4zTmmDrS8?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/4b4520a0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "28e33f60-ac30-11e9-8a69-bb4b29648562",
+    "title": "5 Minutes to Slim HIIT Cardio Workout",
+    "workoutDetails": {
+      "duration": "5 Minutes",
+      "calorieBurn": "50-70",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/hfe6aBM-UvY?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/28e33f60-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "110af810-ac30-11e9-8a69-bb4b29648562",
+    "title": "Cannonball Shoulders Workout - Deltoid Exercises to get Bigger Shoulders",
+    "workoutDetails": {
+      "duration": "15 Minutes",
+      "calorieBurn": "60-105",
+      "difficulty": "3/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Strength Training"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/vH6NKnQXj7o?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/110af810-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder"
+    ]
+  },
+  {
+    "id": "7bc15920-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Cardio Workout at Home - Bodyweight Cardio to Burn Fat Fast",
+    "workoutDetails": {
+      "duration": "36 Minutes",
+      "calorieBurn": "187-353",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/7ea1BfxnlNo?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/7bc15920-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body",
+      "cardio"
+    ]
+  },
+  {
+    "id": "162e1530-ac2f-11e9-8a69-bb4b29648562",
+    "title": "At Home Cardio Workout with No Equipment - Fat Burning Cardio Intervals",
+    "workoutDetails": {
+      "duration": "25 Minutes",
+      "calorieBurn": "162-270",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/2rzhohF5w3c?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/162e1530-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "aed839b0-ac2e-11e9-8a69-bb4b29648562",
+    "title": "35 Minute Pilates Workout for Butt and Thighs - At Home Pilates Workout",
+    "workoutDetails": {
+      "duration": "35 Minutes",
+      "calorieBurn": "148-245",
+      "difficulty": "2/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/YVmJV8KxjuU?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/aed839b0-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "a56edcd0-ac2e-11e9-8a69-bb4b29648562",
+    "title": "10 Minute Butt and Thigh Workout - Lower Body Pilates Workout",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "57-81",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/gXla5bAx290?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/a56edcd0-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "208e2e20-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Strength, HIIT & Pilates Workout for a Bigger Butt & Strong Legs - Lower Body Burnout",
+    "workoutDetails": {
+      "duration": "52 Minutes",
+      "calorieBurn": "408-765",
+      "difficulty": "5/5",
+      "equipment": [
+        "Dumbbell",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "HIIT",
+        "Pilates",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/i32dr3cWSoY?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/208e2e20-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg",
+      "cardio"
+    ]
+  },
+  {
+    "id": "8ba88bb0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Advanced Core Burning Workout - Challenging 20 Minute Abs and Obliques Workout",
+    "workoutDetails": {
+      "duration": "20 Minutes",
+      "calorieBurn": "171-285",
+      "difficulty": "4/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/eGOjsVVWVbw?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/8ba88bb0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "080b0b60-ac30-11e9-8a69-bb4b29648562",
+    "title": "Comprehensive Pilates Leg Workout",
+    "workoutDetails": {
+      "duration": "20 Minutes",
+      "calorieBurn": "76-133",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/6PwcbI_SBSY?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/080b0b60-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "6d0e39c0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "5 Minute Abs and Obliques Workout - Abs Exercises for a Strong Toned Core",
+    "workoutDetails": {
+      "duration": "5 Minutes",
+      "calorieBurn": "21-33",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/4ctMKApSpz8?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/6d0e39c0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "42c97f20-ac30-11e9-8a69-bb4b29648562",
+    "title": "Cardio Kickboxing Workout - 400 Calorie Cardio Routine",
+    "workoutDetails": {
+      "duration": "27 Minutes",
+      "calorieBurn": "270-405",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/UuUBRP3g73A?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/42c97f20-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "23830420-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Fun At Home Cardio - 10 Minute Cardio and Abs Workout",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "70-130",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Core,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/88FYIppJGxA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/23830420-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "abs"
+    ]
+  },
+  {
+    "id": "2a59f650-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Quick and Easy Pilates Toning and Flexibility Workout",
+    "workoutDetails": {
+      "duration": "17 Minutes",
+      "calorieBurn": "51-85",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Core,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/0PXRL5RhNok?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/2a59f650-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "5b31c6e0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Stretching, Pilates, Yoga Workout Blend - Relaxing Stretching Routine to Relieve Stress & Back Pain",
+    "workoutDetails": {
+      "duration": "27 Minutes",
+      "calorieBurn": "73-132",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Warm Up/Cool Down",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/-VXIVZXYyFo?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/5b31c6e0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body",
+      "back"
+    ]
+  },
+  {
+    "id": "4ab89810-ac30-11e9-8a69-bb4b29648562",
+    "title": "38 Minute Glute, Inner & Outer Thigh Workout",
+    "workoutDetails": {
+      "duration": "38 Minutes",
+      "calorieBurn": "280-420",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/gF-nJkS_FjI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/4ab89810-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "e945d8e0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "When I Say Jump HIIT - Total Body Toning and HIIT Cardio Workout",
+    "workoutDetails": {
+      "duration": "23 Minutes",
+      "calorieBurn": "221-347",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Balance/Agility",
+        "Cardiovascular",
+        "HIIT",
+        "Plyometric",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dlOayNdj_P0?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/e945d8e0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body",
+      "cardio"
+    ]
+  },
+  {
+    "id": "567bea80-ac30-11e9-8a69-bb4b29648562",
+    "title": "HIIT Workout for Abs & Obliques - High Intensity Cardio and Abs Workout",
+    "workoutDetails": {
+      "duration": "23 Minutes",
+      "calorieBurn": "132-222",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/hyFIKDLmYyo?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/567bea80-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs",
+      "cardio"
+    ]
+  },
+  {
+    "id": "5c575b20-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Standing Abs Workout - Standing Abs Exercises to Tone Abs, Obliques & Lower Back",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "41-78",
+      "difficulty": "2/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/zrwuS2E83Bc?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/5c575b20-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs",
+      "back"
+    ]
+  },
+  {
+    "id": "a7bc7650-ac2e-11e9-8a69-bb4b29648562",
+    "title": "HIIT and Kickboxing Cardio Plus Abs - Home Cardio and Abs Workout",
+    "workoutDetails": {
+      "duration": "38 Minutes",
+      "calorieBurn": "169-355",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/XwfTTbEbwng?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/a7bc7650-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs",
+      "full body"
+    ]
+  },
+  {
+    "id": "890e31c0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Killer at Home Chest Workout - Chest Workout Without Weights",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "64-113",
+      "difficulty": "4/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body,  Core",
+      "bodyFocusIconClassName": "-focus-core_upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/Bi1IRzJIoAo?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/890e31c0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "chest"
+    ]
+  },
+  {
+    "id": "078b7090-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Total Body HIIT and Abs Workout - Cardio and Core Combination",
+    "workoutDetails": {
+      "duration": "19 Minutes",
+      "calorieBurn": "108-288",
+      "difficulty": "4/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT"
+      ],
+      "bodyFocus": "Total Body,  Core",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/ujwNtbPYHGI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/078b7090-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body",
+      "abs",
+      "cardio"
+    ]
+  },
+  {
+    "id": "3bdce210-ac30-11e9-8a69-bb4b29648562",
+    "title": "Beginner Boot Camp Workout - Easy Toning & Low Impact Cardio Workout",
+    "workoutDetails": {
+      "duration": "22 Minutes",
+      "calorieBurn": "115-184",
+      "difficulty": "2/5",
+      "equipment": [
+        "Dumbbell",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Lower Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/AoZsTarI9uA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/3bdce210-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "02211140-ac30-11e9-8a69-bb4b29648562",
+    "title": "Burpee Madness! Fast Fat Burning Workout - Cardio & Total Body Toning",
+    "workoutDetails": {
+      "duration": "6 Minutes",
+      "calorieBurn": "60-96",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/fd22xZYZfoE?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/02211140-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "full body"
+    ]
+  },
+  {
+    "id": "39fccce0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Day 4 - 5 Day Workout Challenge to Burn Fat & Build Lean Muscle - Kickboxing & Yoga Workout",
+    "workoutDetails": {
+      "duration": "49 Minutes",
+      "calorieBurn": "272-561",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/v4hrXKrWLc4?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/39fccce0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "ac3fb480-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Easy Pilates and Cardio Workout with Relaxing Cool Down - Active Recovery Workout",
+    "workoutDetails": {
+      "duration": "31 Minutes",
+      "calorieBurn": "146-248",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Lower Body,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/JnXMbE9tHlw?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/ac3fb480-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "6a0f0e10-ac30-11e9-8a69-bb4b29648562",
+    "title": "Total Body PhysioBall Workout - PhysioBall Exercises",
+    "workoutDetails": {
+      "duration": "26 Minutes",
+      "calorieBurn": "200-250",
+      "difficulty": "3/5",
+      "equipment": [
+        "Physio-Ball"
+      ],
+      "trainingType": [
+        "Balance/Agility",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/hf5yoKvOYug?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/6a0f0e10-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "c59d6350-ac2e-11e9-8a69-bb4b29648562",
+    "title": "10 Minute Butt and Thigh Workout - No Equipment Lower Body Workout",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "64-107",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/YyBcMVQylas?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/c59d6350-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "5872cdf0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "8 Minute Abs - Core Firming at Home Ab Workout",
+    "workoutDetails": {
+      "duration": "8 Minutes",
+      "calorieBurn": "40-80",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/COk2CJkiHlw?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/5872cdf0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "a4e3be60-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Advanced Abs and Core for Strength - Abdominal Strength Training",
+    "workoutDetails": {
+      "duration": "19 Minutes",
+      "calorieBurn": "126-216",
+      "difficulty": "5/5",
+      "equipment": [
+        "Dumbbell",
+        "Mat",
+        "Physio-Ball"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/d4CZXqA45nA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/a4e3be60-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "7929e560-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Total Body Toning Strength and HIIT Cardio Workout - You vs You",
+    "workoutDetails": {
+      "duration": "34 Minutes",
+      "calorieBurn": "162-398",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/bgyebWOm3fY?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/7929e560-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "3a8d4d10-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Day 3 - 5 Day Workout Challenge to Burn Fat & Build Lean Muscle - HIIT Cardio & Abs",
+    "workoutDetails": {
+      "duration": "52 Minutes",
+      "calorieBurn": "258-572",
+      "difficulty": "4/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Core",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dNGrJGLa4iw?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/3a8d4d10-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs",
+      "cardio"
+    ]
+  },
+  {
+    "id": "59d575c0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Fitness Blender 100 Rep Workout - Fat Burning Total Body Routine",
+    "workoutDetails": {
+      "duration": "24 Minutes",
+      "calorieBurn": "500-700",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell",
+        "Mat"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/StikwXBYqcU?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/59d575c0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body",
+      "cardio"
+    ]
+  },
+  {
+    "id": "b4dc2470-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Upper Body Workout for Coordination and Control - Isolated Functional Strength Workout",
+    "workoutDetails": {
+      "duration": "37 Minutes",
+      "calorieBurn": "140-275",
+      "difficulty": "4/5",
+      "equipment": [
+        "Bench",
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body,  Core",
+      "bodyFocusIconClassName": "-focus-core_upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/TnuU-PY_-rs?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/b4dc2470-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "chest",
+      "shoulder",
+      "biceps",
+      "triceps",
+      "back"
+    ]
+  },
+  {
+    "id": "e65aedf0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Toning Lower Back Workout Routine - Best Lower Back Exercises at Home",
+    "workoutDetails": {
+      "duration": "8 Minutes",
+      "calorieBurn": "21-49",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning"
+      ],
+      "bodyFocus": "Core,  Lower Body",
+      "bodyFocusIconClassName": "-focus-core_lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/p1GERX3lf3Y?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/e65aedf0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "back"
+    ]
+  },
+  {
+    "id": "a2599110-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Total Body HIIT Boot Camp Workout - Quick Tabata Workout",
+    "workoutDetails": {
+      "duration": "13 Minutes",
+      "calorieBurn": "80-140",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell",
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/IjjknUdynbA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/a2599110-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "e066baa0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Low Impact Cardio and Toning Workout for Beginners",
+    "workoutDetails": {
+      "duration": "9 Minutes",
+      "calorieBurn": "45-75",
+      "difficulty": "2/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Balance/Agility",
+        "Cardiovascular",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/GjAhM651ZPU?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/e066baa0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "001b5630-ac30-11e9-8a69-bb4b29648562",
+    "title": "Pilates Infused Cool Down and Stretch",
+    "workoutDetails": {
+      "duration": "7 Minutes",
+      "calorieBurn": "21-35",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Warm Up/Cool Down",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/NuagzNoRXII?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/001b5630-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "57b5ca10-ac30-11e9-8a69-bb4b29648562",
+    "title": "27 Minute Total Body Medicine Ball Workout - Medicine Ball Exercises",
+    "workoutDetails": {
+      "duration": "27 Minutes",
+      "calorieBurn": "200-320",
+      "difficulty": "3/5",
+      "equipment": [
+        "Medicine Ball"
+      ],
+      "trainingType": [
+        "Balance/Agility",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/nV3A5F28AB8?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/57b5ca10-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "6b0f8390-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Kelli's 5 Minute Kettlebell Workout for Butt and Thighs - Fast & Effective Kettlebell Workout Video",
+    "workoutDetails": {
+      "duration": "5 Minutes",
+      "calorieBurn": "42-73",
+      "difficulty": "3/5",
+      "equipment": [
+        "Dumbbell",
+        "Kettlebell"
+      ],
+      "trainingType": [
+        "Kettlebell",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/G8RdbvvMYCc?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/6b0f8390-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "62a1cf50-ac30-11e9-8a69-bb4b29648562",
+    "title": "17 Minute Pilates Core Series Workout",
+    "workoutDetails": {
+      "duration": "17 Minutes",
+      "calorieBurn": "65-85",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/xoNG1pBdSOo?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/62a1cf50-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs",
+      "full body"
+    ]
+  },
+  {
+    "id": "c6741ed0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Interval Cardio Training and Bicep Workout - Bicep Burnout!",
+    "workoutDetails": {
+      "duration": "7 Minutes",
+      "calorieBurn": "35-56",
+      "difficulty": "3/5",
+      "equipment": [
+        "Dumbbell",
+        "Exercise Band"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/Ln-T6-XQYWs?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/c6741ed0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "biceps"
+    ]
+  },
+  {
+    "id": "ad754e50-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Fun Upper Body Workout + A Message About Goal Setting",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "63-111",
+      "difficulty": "3/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/GtckHienPPI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/ad754e50-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "chest",
+      "shoulder",
+      "biceps",
+      "triceps",
+      "back"
+    ]
+  },
+  {
+    "id": "b9f6cb30-ac2f-11e9-8a69-bb4b29648562",
+    "title": "15 Minute Kettlebell Workout Video - 1X10 Kettlebell Training",
+    "workoutDetails": {
+      "duration": "15 Minutes",
+      "calorieBurn": "175-262",
+      "difficulty": "5/5",
+      "equipment": [
+        "Dumbbell",
+        "Kettlebell"
+      ],
+      "trainingType": [
+        "Kettlebell",
+        "Strength Training"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/gcIFAgnOL9E?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/b9f6cb30-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "5be08800-ac30-11e9-8a69-bb4b29648562",
+    "title": "Rotator Cuff Workout - Rotator Cuff Exercises for Injury Prevention",
+    "workoutDetails": {
+      "duration": "14 Minutes",
+      "calorieBurn": "33-57",
+      "difficulty": "2/5",
+      "equipment": [
+        "Exercise Band"
+      ],
+      "trainingType": [
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/EY2tNBOmvGs?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/5be08800-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "46dcd9f0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Biceps and Triceps Superset Strength Workout - Upper Body Strength Routine",
+    "workoutDetails": {
+      "duration": "37 Minutes",
+      "calorieBurn": "238-476",
+      "difficulty": "2/5",
+      "equipment": [
+        "Bench",
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Strength Training"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/KqZG-vlcYhg?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/46dcd9f0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "eddced30-ac2f-11e9-8a69-bb4b29648562",
+    "title": "At Home Total Body Barre Workout - 15 Minute Barre Video",
+    "workoutDetails": {
+      "duration": "13 Minutes",
+      "calorieBurn": "68-110",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Barre",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Lower Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/MneYxp4fqw0?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/eddced30-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "dd1bae50-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Total Body Tabata Workout - 45 Min HIIT and Toning Routine",
+    "workoutDetails": {
+      "duration": "45 Minutes",
+      "calorieBurn": "322-507",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Core",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/Vy9WKyN1rig?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/dd1bae50-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "66b9a180-ac30-11e9-8a69-bb4b29648562",
+    "title": "Upper Body Stretching Routine",
+    "workoutDetails": {
+      "duration": "11 Minutes",
+      "calorieBurn": "22-35",
+      "difficulty": "1/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/NppUNB5ZZR0?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/66b9a180-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "biceps",
+      "triceps",
+      "chest",
+      "back"
+    ]
+  },
+  {
+    "id": "0d83cd20-ac30-11e9-8a69-bb4b29648562",
+    "title": "Pilates Abs and Butt Workout Video",
+    "workoutDetails": {
+      "duration": "24 Minutes",
+      "calorieBurn": "150-220",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning"
+      ],
+      "bodyFocus": "Core,  Lower Body",
+      "bodyFocusIconClassName": "-focus-core_lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/MUni_YQjmaI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/0d83cd20-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs",
+      "leg"
+    ]
+  },
+  {
+    "id": "2ec39200-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Fitness Blender's Free 5-Day Workout Challenge: For Busy People, Day 3",
+    "workoutDetails": {
+      "duration": "27 Minutes",
+      "calorieBurn": "110-235",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Core",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/NugcsykcpCg?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/2ec39200-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "0527c190-ac30-11e9-8a69-bb4b29648562",
+    "title": "Spartan 500 Workout - 500 Rep Workout Routine",
+    "workoutDetails": {
+      "duration": "17 Minutes",
+      "calorieBurn": "204-272",
+      "difficulty": "5/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Plyometric",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/L46d0OnbDuY?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/0527c190-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "0d24b2a0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Relaxing Stretching Workout for Stiff Muscles & Stress Relief - Easy Stretches to Do at Work",
+    "workoutDetails": {
+      "duration": "5 Minutes",
+      "calorieBurn": "12-23",
+      "difficulty": "1/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Warm Up/Cool Down",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/a9WC_eLmP30?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/0d24b2a0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "f415a390-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Fat Blasting At Home Cardio Kickboxing Workout Video",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "80-140",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Core,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/TYGHc9mdH6M?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/f415a390-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "f97d7560-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Quick Arm and Shoulder Workout with Dumbbells",
+    "workoutDetails": {
+      "duration": "8 Minutes",
+      "calorieBurn": "32-80",
+      "difficulty": "3/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/mGtd0xcJjqw?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/f97d7560-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "biceps",
+      "triceps",
+      "shoulder"
+    ]
+  },
+  {
+    "id": "40dddbc0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Quick Cool Down Stretch",
+    "workoutDetails": {
+      "duration": "5 Minutes",
+      "calorieBurn": "12-15",
+      "difficulty": "1/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Warm Up/Cool Down",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/XewzQ9MRDh8?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/40dddbc0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "67352f90-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Lake Cool Down Yoga Workout - Fluid Yoga Stretches for Flexibility and Stress Relief",
+    "workoutDetails": {
+      "duration": "6 Minutes",
+      "calorieBurn": "19-28",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Warm Up/Cool Down",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/jkkxMVDogBM?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/67352f90-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "23021ee0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Mountain Top Abs Workout - Toning Abs & Obliques Workout",
+    "workoutDetails": {
+      "duration": "7 Minutes",
+      "calorieBurn": "18-30",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/b0yNyvMatNM?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/23021ee0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "af84f470-ac2e-11e9-8a69-bb4b29648562",
+    "title": "HIIT Cardio, Total Body Strength, Core Workout - 1000 Calorie Workout for 5 Million Subs!",
+    "workoutDetails": {
+      "duration": "84 Minutes",
+      "calorieBurn": "456-1012",
+      "difficulty": "5/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "HIIT",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/I6pCg2MPr8k?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/af84f470-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "abs"
+    ]
+  },
+  {
+    "id": "0704db70-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Total Body Cooldown - Compound Movements for a Total Body Stretch",
+    "workoutDetails": {
+      "duration": "7 Minutes",
+      "calorieBurn": "18-25",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Warm Up/Cool Down"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/WK1t1-d2t1Y?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/0704db70-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "4b3e3840-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Fat Burning Bodyweight Workout - Pyramid HIIT Workout",
+    "workoutDetails": {
+      "duration": "6 Minutes",
+      "calorieBurn": "30-65",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/3sprMYJifuw#t=38?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/4b3e3840-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "e52ad260-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Cardio Kickboxing Workout with Ab Exercises - 37 Minute Fat Melting Routine",
+    "workoutDetails": {
+      "duration": "37 Minutes",
+      "calorieBurn": "326-578",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Core,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/GFUxgIXEHAk?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/e52ad260-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "3663eeb0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Butt and Thigh HIIT Cardio Workout to Banish Fat & Boost Energy",
+    "workoutDetails": {
+      "duration": "8 Minutes",
+      "calorieBurn": "63-113",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/8uGgE0lzBX4?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/3663eeb0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg",
+      "cardio"
+    ]
+  },
+  {
+    "id": "7878e4e0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Cardio Kickboxing Workout to Burn Fat at Home - Kickboxing Cardio Interval Workout",
+    "workoutDetails": {
+      "duration": "22 Minutes",
+      "calorieBurn": "149-247",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/Vve4BVTZ0QU?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/7878e4e0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "5e2d1010-ac30-11e9-8a69-bb4b29648562",
+    "title": "Toned & Curvy Body Workout - Exercises to get Curves",
+    "workoutDetails": {
+      "duration": "30 Minutes",
+      "calorieBurn": "210-350",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell",
+        "Mat"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Lower Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/LTJesxB1aZY?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/5e2d1010-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "32ecacd0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Partner Workout - 100th Free Full Length Workout Video with Daniel & Kelli",
+    "workoutDetails": {
+      "duration": "9 Minutes",
+      "calorieBurn": "45-81",
+      "difficulty": "3/5",
+      "equipment": [
+        "Medicine Ball",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/tD-4Vm0AY28?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/32ecacd0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "cb3acea0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Low Impact Cardio Workout - Quiet Cardio Workout at Home",
+    "workoutDetails": {
+      "duration": "22 Minutes",
+      "calorieBurn": "84-168",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/FXthVpqzacw?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/cb3acea0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "607133b0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Lower Abdominal Exercises - 15 Minute Advanced Lower Abs Workout",
+    "workoutDetails": {
+      "duration": "15 Minutes",
+      "calorieBurn": "105-150",
+      "difficulty": "5/5",
+      "equipment": [
+        "Physio-Ball"
+      ],
+      "trainingType": [
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/Fu1jJE6x3lU?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/607133b0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "56f4e080-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Best Butt Workout to Build a Booty and Tone Thighs - Butt & Thigh Workout",
+    "workoutDetails": {
+      "duration": "32 Minutes",
+      "calorieBurn": "186-372",
+      "difficulty": "4/5",
+      "equipment": [
+        "Aerobics Step",
+        "Dumbbell",
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/HCdCjUVx1OA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/56f4e080-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "0aa1bbd0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Back Stabilization Workout - Core and Lower Back Strength",
+    "workoutDetails": {
+      "duration": "7 Minutes",
+      "calorieBurn": "21-29",
+      "difficulty": "1/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/XRBmzCCMZVY?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/0aa1bbd0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "back"
+    ]
+  },
+  {
+    "id": "bd3a52e0-ac2e-11e9-8a69-bb4b29648562",
+    "title": "HIIT Cardio and Upper Body Workout - Intense Total Body Workout",
+    "workoutDetails": {
+      "duration": "45 Minutes",
+      "calorieBurn": "354-531",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "HIIT",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Upper Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/8elSCV-56ww?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/bd3a52e0-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "shoulder",
+      "back",
+      "chest",
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "f4b87340-ac2f-11e9-8a69-bb4b29648562",
+    "title": "6 Pack Abs Workout - Six Pack Abs or Bust",
+    "workoutDetails": {
+      "duration": "21 Minutes",
+      "calorieBurn": "100-160",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/aqqwZ_leAMA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/f4b87340-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "e971c050-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Cardio Kickboxing and Bodyweight Cardio Workout - Fat Burning Intervals",
+    "workoutDetails": {
+      "duration": "23 Minutes",
+      "calorieBurn": "157-315",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/HY3Q7lBeb_M?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/e971c050-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "00079c90-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Kelli's Upper Body Workout for People Who Get Bored Easily - Arms, Shoulders, Upper Back",
+    "workoutDetails": {
+      "duration": "40 Minutes",
+      "calorieBurn": "198-435",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/31GQrtI6ivI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/00079c90-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "back",
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "b9f07f10-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Alternating Repetition Upper Body Workout for Strength Coordination and Control",
+    "workoutDetails": {
+      "duration": "16 Minutes",
+      "calorieBurn": "84-210",
+      "difficulty": "3/5",
+      "equipment": [
+        "Bench",
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body,  Core",
+      "bodyFocusIconClassName": "-focus-core_upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/PdebNr25GTo?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/b9f07f10-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "back",
+      "chest",
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "de243a20-ac2e-11e9-8a69-bb4b29648562",
+    "title": "All Strength Upper Body Workout - Upper Body Muscle Building Workout",
+    "workoutDetails": {
+      "duration": "21 Minutes",
+      "calorieBurn": "120-280",
+      "difficulty": "3/5",
+      "equipment": [
+        "Bench",
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/v6vsSkZPmuA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/de243a20-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "back",
+      "chest",
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "c6269080-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Get Strong! Upper Body Workout for Strength with Descending Reps",
+    "workoutDetails": {
+      "duration": "38 Minutes",
+      "calorieBurn": "214-399",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/wpTVnDwTd_M?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/c6269080-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "back",
+      "chest",
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "f8199fa0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Quiet Cardio Workout - Low Impact, Apartment Cardio Workout",
+    "workoutDetails": {
+      "duration": "22 Minutes",
+      "calorieBurn": "132-198",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Balance/Agility",
+        "Cardiovascular",
+        "Low Impact"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/YaJryQEsT94?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/f8199fa0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "285900c0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Quick 5 Minute Leg Leaner + Booty Toner",
+    "workoutDetails": {
+      "duration": "5 Minutes",
+      "calorieBurn": "17-29",
+      "difficulty": "2/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Barre",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body,  Core",
+      "bodyFocusIconClassName": "-focus-core_lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/X0vawLKFzgE?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/285900c0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "0f2a94c0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Low Impact Beginner Cardio - No Jumping Quiet Cardio Workout",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "43-69",
+      "difficulty": "2/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact",
+        "Warm Up/Cool Down"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/zfgEwSvatqY?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/0f2a94c0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "6d163390-ac30-11e9-8a69-bb4b29648562",
+    "title": "Lower Back Stretches for Sciatica Pain",
+    "workoutDetails": {
+      "duration": "9 Minutes",
+      "calorieBurn": "27-36",
+      "difficulty": "1/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Warm Up/Cool Down",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/CbZzeO4P9YA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/6d163390-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "back"
+    ]
+  },
+  {
+    "id": "b187f060-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Fitness Blender 15 Minute Abs Workout - At Home Core Training without Equipment",
+    "workoutDetails": {
+      "duration": "16 Minutes",
+      "calorieBurn": "80-176",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/0yZDVWab_dI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/b187f060-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "b6d8c250-ac2f-11e9-8a69-bb4b29648562",
+    "title": "No Burpee HIIT Cardio and Abs - Fat Burning Bodyweight Cardio without Burpees",
+    "workoutDetails": {
+      "duration": "34 Minutes",
+      "calorieBurn": "240-360",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/ohGC3AXIlRw?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/b6d8c250-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body",
+      "cardio"
+    ]
+  },
+  {
+    "id": "c03a2560-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Dynamic Total Body HIIT and Core Workout",
+    "workoutDetails": {
+      "duration": "38 Minutes",
+      "calorieBurn": "219-421",
+      "difficulty": "4/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT"
+      ],
+      "bodyFocus": "Total Body,  Core",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/OUo0QofYx28?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/c03a2560-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs",
+      "full body"
+    ]
+  },
+  {
+    "id": "b63fac10-ac2e-11e9-8a69-bb4b29648562",
+    "title": "30 Minute HIIT and Abs Workout with Warm Up and Cool Down (no equipment)",
+    "workoutDetails": {
+      "duration": "33 Minutes",
+      "calorieBurn": "170-295",
+      "difficulty": "4/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Core,  Lower Body",
+      "bodyFocusIconClassName": "-focus-core_lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/KzPj5l9R7Os?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/b63fac10-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body",
+      "abs"
+    ]
+  },
+  {
+    "id": "06e5c540-ac30-11e9-8a69-bb4b29648562",
+    "title": "Kickboxing HIIT - Quick Cardio Kickboxing Workout",
+    "workoutDetails": {
+      "duration": "11 Minutes",
+      "calorieBurn": "55-176",
+      "difficulty": "5/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/CSXksjKzR2w?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/06e5c540-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "178b8ce0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Lean Arms Workout - Rhomboids, Shoulders, Bicep, Tricep, and Chest",
+    "workoutDetails": {
+      "duration": "20 Minutes",
+      "calorieBurn": "80-140",
+      "difficulty": "2/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/NDw5dxst_ls?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/178b8ce0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "biceps",
+      "triceps",
+      "chest"
+    ]
+  },
+  {
+    "id": "31fc00b0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Fitness Blender's Free 5-Day Workout Challenge: For Busy People, Day 1",
+    "workoutDetails": {
+      "duration": "30 Minutes",
+      "calorieBurn": "126-248",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/A4y4FDoUz70?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/31fc00b0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "c77a60b0-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Fat Burning HIIT Cardio Workout with No Equipment",
+    "workoutDetails": {
+      "duration": "37 Minutes",
+      "calorieBurn": "277-488",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/5Yz9odanXN4?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/c77a60b0-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "2fed9310-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Cardio and Abs Workout - Fat Burning Core and Cardio Intervals",
+    "workoutDetails": {
+      "duration": "21 Minutes",
+      "calorieBurn": "98-176",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Core,  Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dXNbCDpop2o?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/2fed9310-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "abs"
+    ]
+  },
+  {
+    "id": "63bd6df0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "40 Minute Brutal HIIT Cardio and Kettlebell Workout - Workout to Build Lean Muscle and Burn Fat Fast",
+    "workoutDetails": {
+      "duration": "41 Minutes",
+      "calorieBurn": "287-455",
+      "difficulty": "5/5",
+      "equipment": [
+        "Dumbbell",
+        "Kettlebell"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Kettlebell",
+        "Strength Training"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/olHsny-iSA8?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/63bd6df0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "0e3167b0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "1000 Calorie Workout for 2 Million Subscribers! At Home Workout to Burn 1000 Calories",
+    "workoutDetails": {
+      "duration": "79 Minutes",
+      "calorieBurn": "588-1031",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/PBHBhvv-Lhg?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/0e3167b0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "d2960170-ac2e-11e9-8a69-bb4b29648562",
+    "title": "No Equipment Upper Body and Cardio Kickboxing Workout",
+    "workoutDetails": {
+      "duration": "37 Minutes",
+      "calorieBurn": "207-362",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/F4f8Ny82h88?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/d2960170-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder",
+      "back",
+      "chest",
+      "biceps",
+      "triceps",
+      "cardio"
+    ]
+  },
+  {
+    "id": "cb5ca3f0-ac2e-11e9-8a69-bb4b29648562",
+    "title": "No Equipment Butt and Thigh Workout + Fat Burning Cardio Intervals",
+    "workoutDetails": {
+      "duration": "36 Minutes",
+      "calorieBurn": "244-455",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/oJs7hzlHWco?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/cb5ca3f0-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "leg"
+    ]
+  },
+  {
+    "id": "c8cd6d90-ac2e-11e9-8a69-bb4b29648562",
+    "title": "1000 Calorie Workout for 4 Million Subscribers! At Home Workout to Burn 1000 Calories",
+    "workoutDetails": {
+      "duration": "87 Minutes",
+      "calorieBurn": "480-1010",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Balance/Agility",
+        "Cardiovascular",
+        "HIIT",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/jLi5CcyTFgQ?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/c8cd6d90-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "9ad17750-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Relaxing Pilates Yoga Blend - Calming Yoga and Pilates Workout for Strength and Flexibility",
+    "workoutDetails": {
+      "duration": "15 Minutes",
+      "calorieBurn": "49-79",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning",
+        "Warm Up/Cool Down",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/u-Xeeu2iZf0?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/9ad17750-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "d4cee500-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Fitness Blender Kids Workout - 25 Minute Fun Workout for Kids at Home",
+    "workoutDetails": {
+      "duration": "26 Minutes",
+      "calorieBurn": "155-260",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/McD6_oOWs-M?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/d4cee500-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "81f0c0b0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Fat Burning HIIT Cardio Workout - High Intensity Interval Training with Warm Up & Cool Down",
+    "workoutDetails": {
+      "duration": "23 Minutes",
+      "calorieBurn": "161-261",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/VhdXXqcoco0?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/81f0c0b0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "e4a26880-ac2f-11e9-8a69-bb4b29648562",
+    "title": "At Home Hamstring Workout Video - Hamstring Exercises with No Equipment",
+    "workoutDetails": {
+      "duration": "7 Minutes",
+      "calorieBurn": "28-56",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/SUDeeovoSmc?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/e4a26880-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "13848390-ac30-11e9-8a69-bb4b29648562",
+    "title": "Sayonara Saddlebags 20 Minute Outer Thigh Workout - Outer Thigh Exercises",
+    "workoutDetails": {
+      "duration": "20 Minutes",
+      "calorieBurn": "150-230",
+      "difficulty": "3/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body,  Core",
+      "bodyFocusIconClassName": "-focus-core_lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/NbQyWph-aBI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/13848390-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "f29adfe0-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Quick But Brutal HIIT Workout - 15 Minute Brutal Tabata",
+    "workoutDetails": {
+      "duration": "15 Minutes",
+      "calorieBurn": "80-180",
+      "difficulty": "4/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/8EBLws3-Ei0?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/f29adfe0-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "full body"
+    ]
+  },
+  {
+    "id": "7ee8b0d0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "10 Minute Abs Workout - At Home Abs and Obliques Exercises with No Equipment",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "47-72",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Barre",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/qniTvaPXESA?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/7ee8b0d0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "f8bdcee0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Comprehensive Total Body HIIT Cardio and Core Workout",
+    "workoutDetails": {
+      "duration": "40 Minutes",
+      "calorieBurn": "325-465",
+      "difficulty": "4/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Plyometric",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body,  Core",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/NGhZUc00YhE?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/f8bdcee0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body",
+      "cardio"
+    ]
+  },
+  {
+    "id": "f6205d20-ac2e-11e9-8a69-bb4b29648562",
+    "title": "1000 Calorie Workout Video - At Home HIIT Cardio, Strength, and Abs Workout to Burn 1000 Calories",
+    "workoutDetails": {
+      "duration": "96 Minutes",
+      "calorieBurn": "406-1011",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell",
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Low Impact",
+        "Strength Training"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/Co9CpHYl20M?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/f6205d20-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio",
+      "abs"
+    ]
+  },
+  {
+    "id": "72ff6a60-ac30-11e9-8a69-bb4b29648562",
+    "title": "Challenging Exercise Ball Ab Workout",
+    "workoutDetails": {
+      "duration": "13 Minutes",
+      "calorieBurn": "85-122",
+      "difficulty": "5/5",
+      "equipment": [
+        "Physio-Ball"
+      ],
+      "trainingType": [
+        "Toning"
+      ],
+      "bodyFocus": "Core",
+      "bodyFocusIconClassName": "-focus-core"
+    },
+    "videoUrl": "https://www.youtube.com/embed/gwwNST1hwgI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/72ff6a60-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs"
+    ]
+  },
+  {
+    "id": "feebf360-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Ultimate Butt and Thigh Workout  - Kelli's Lower Body Workout for People Who Get Bored Easily",
+    "workoutDetails": {
+      "duration": "52 Minutes",
+      "calorieBurn": "306-714",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/UgcwcPmhmb0?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/feebf360-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "9728e1b0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Low Impact Workout for Beginners - 40 Minute Total Body Beginner Workout",
+    "workoutDetails": {
+      "duration": "40 Minutes",
+      "calorieBurn": "181-321",
+      "difficulty": "2/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/QiuJ3ZFAiBg?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/9728e1b0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "4e4de940-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Low Impact Cardio Workout: No-Jump Belly Fat Burner Interval Workout",
+    "workoutDetails": {
+      "duration": "10 Minutes",
+      "calorieBurn": "40-80",
+      "difficulty": "2/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/9OVKJsNkMpE?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/4e4de940-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "cardio"
+    ]
+  },
+  {
+    "id": "527640c0-ac30-11e9-8a69-bb4b29648562",
+    "title": "Workout at Work: 32 Minute Chair Workout Video",
+    "workoutDetails": {
+      "duration": "32 Minutes",
+      "calorieBurn": "128-224",
+      "difficulty": "2/5",
+      "equipment": [
+        "Bench"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/2AuLqYh4irI?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/527640c0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "full body"
+    ]
+  },
+  {
+    "id": "dcc87ab0-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Strength and HIIT Workout - Intense Lower Body Workout",
+    "workoutDetails": {
+      "duration": "33 Minutes",
+      "calorieBurn": "240-422",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "HIIT",
+        "Strength Training"
+      ],
+      "bodyFocus": "Lower Body",
+      "bodyFocusIconClassName": "-focus-lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/f5qCnMhqs18?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/dcc87ab0-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  },
+  {
+    "id": "f12270b0-ac2e-11e9-8a69-bb4b29648562",
+    "title": "Abs and Lower Body Pilates Workout for Beginners",
+    "workoutDetails": {
+      "duration": "35 Minutes",
+      "calorieBurn": "115-212",
+      "difficulty": "2/5",
+      "equipment": [
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning"
+      ],
+      "bodyFocus": "Core,  Lower Body",
+      "bodyFocusIconClassName": "-focus-core_lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/VpJ-xeKvfzk?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/f12270b0-ac2e-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs",
+      "leg"
+    ]
+  },
+  {
+    "id": "7fc55fc0-ac30-11e9-8a69-bb4b29648562",
+    "title": "16 Minute Bicep & Tricep Super Set Workout - Resistance Band Exercises",
+    "workoutDetails": {
+      "duration": "16 Minutes",
+      "calorieBurn": "64-112",
+      "difficulty": "3/5",
+      "equipment": [
+        "Exercise Band"
+      ],
+      "trainingType": [
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/Nj6kgsxaUGg?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/7fc55fc0-ac30-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "6a76ed10-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Upper Body Strength Training and Core Workout - Abs and Upper Body Supersets",
+    "workoutDetails": {
+      "duration": "28 Minutes",
+      "calorieBurn": "155-273",
+      "difficulty": "4/5",
+      "equipment": [
+        "Dumbbell"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Strength Training",
+        "Toning"
+      ],
+      "bodyFocus": "Upper Body,  Core",
+      "bodyFocusIconClassName": "-focus-core_upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/TkII8-Q4gbw?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/6a76ed10-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "abs",
+      "shoulder",
+      "back",
+      "chest",
+      "biceps",
+      "triceps"
+    ]
+  },
+  {
+    "id": "9beb24b0-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Butt and Abs Tabata Workout - Fat Blasting Cardio Interval Workout",
+    "workoutDetails": {
+      "duration": "28 Minutes",
+      "calorieBurn": "213-334",
+      "difficulty": "4/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Cardiovascular",
+        "HIIT",
+        "Toning"
+      ],
+      "bodyFocus": "Lower Body,  Core",
+      "bodyFocusIconClassName": "-focus-core_lower_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/FSRu6D_0rVE?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/9beb24b0-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg",
+      "abs",
+      "cardio"
+    ]
+  },
+  {
+    "id": "8ac00070-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Better Posture Workout - Exercises to Improve Posture and Prevent Hunched Shoulders",
+    "workoutDetails": {
+      "duration": "17 Minutes",
+      "calorieBurn": "69-103",
+      "difficulty": "2/5",
+      "equipment": [
+        "Dumbbell",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Toning",
+        "Yoga/Flexibility"
+      ],
+      "bodyFocus": "Upper Body",
+      "bodyFocusIconClassName": "-focus-upper_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/ahPse5W9Eyo?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/8ac00070-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "shoulder"
+    ]
+  },
+  {
+    "id": "b297bd40-ac2f-11e9-8a69-bb4b29648562",
+    "title": "Bikini Body Pilates - 27 Minute Butt, Thigh, and Abs Pilates Workout",
+    "workoutDetails": {
+      "duration": "27 Minutes",
+      "calorieBurn": "92-189",
+      "difficulty": "3/5",
+      "equipment": [
+        "Mat",
+        "No Equipment"
+      ],
+      "trainingType": [
+        "Low Impact",
+        "Pilates",
+        "Toning"
+      ],
+      "bodyFocus": "Total Body",
+      "bodyFocusIconClassName": "-focus-total_body"
+    },
+    "videoUrl": "https://www.youtube.com/embed/OjeveoQgp6I?rel=0&&showinfo=0",
+    "videoStoragePath": "videos/b297bd40-ac2f-11e9-8a69-bb4b29648562_video.mp4",
+    "workoutPlan": [
+      "leg"
+    ]
+  }
+]

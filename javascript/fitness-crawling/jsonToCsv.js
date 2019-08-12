@@ -4,7 +4,7 @@ const fs = require("fs");
 const fields = ['id', 'title'];
 const opts = { fields };
 
-const jsonToCsv = async(filename) => {
+module.exports = jsonToCsv = async(filename) => {
   try {
     const myData = require(`./${filename}.json`);
     const csv = parse(myData, opts);
@@ -20,4 +20,4 @@ const jsonToCsv = async(filename) => {
   }
 }
 
-jsonToCsv('fitness-435');
+// jsonToCsv('fitness-435');

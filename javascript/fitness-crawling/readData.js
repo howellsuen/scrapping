@@ -1,4 +1,4 @@
-const data = require('./fitness-all.json');
+const data = require('./fitness-80.json');
 
 const readData = () => {
   console.log("count", data.length)
