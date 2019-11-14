@@ -1,132 +1,72 @@
 {
-  "navbar": {
-    "Search": {
-      "value": "Search"
-    },
-    "All_Videos": {
-      "value": "All Videos"
-    },
-    "Collections": {
-      "value": "Collections"
-    },
-    "Sign_up": {
-      "value": "Sign up"
-    },
-    "Login": {
-      "value": "Login"
-    },
-    "Logout": {
-      "value": "Logout"
-    },
-    "Hi": {
-      "value": "Hi, "
-    }
-  },
-  "footer": {
-    "message": "Mvidpass is a comedy video website which provides the best selection of funny videos for our subscribers. We focus on everything humorous, funny and interesting around the web. Our videos are categorized into different collections. Let us make you burst into laughing - Check out here now!",
-    "copyright": "mvidpass.com. All rights reserved.",
-    "navigation": [{
-        "name": "FAQs"
-      },
-      {
-        "name": "Contact Us"
-      },
-      {
-        "name": "Terms of Use"
-      },
-      {
-        "name": "Privacy Policy"
-      }
-    ]
-  },
-  "index": {
-    "Recommended_Videos": "Recommended Videos",
-    "Top_Videos": "Top Videos",
-    "Latest_Videos": "Latest Videos",
-    "Load_More": "Load More"
-  },
-  "results": {
-    "Search_Results": "Search Results",
-    "Load_More": "Load More",
-    "No_Results_Found": "Sorry, no results were found."
-  },
-  "collections": {
-    "navigation": {
-      "Featured_Videos": "Featured Videos",
-      "Top_Videos": "Top Videos",
-      "Recommended_Videos": "Recommended Videos",
-      "Recently_Added_Videos": "Recently Added Videos",
-      "Popular_Videos": "Popular Videos"
-    }
-  },
-  "video_landing": {
-    "videoError": "To view this video please enable JavaScript, and consider upgrading to a web browser thatsupports HTML5 video",
-    "Info": "Info",
-    "Duration": "Duration",
-    "Date": "Date",
-    "Categories": "Categories",
-    "CategoriesList": "Animal, Funny, New",
-    "You_May_Also_Like": "You May Also Like",
-    "Popular_Videos": "Popular Videos"
-  },
-  "account": {
-    "My_Account": "My Account",
-    "Welcome": "Welcome,",
-    "WelcomeTxt": "Manage your services and accounts easily with My Account.",
-    "Info": "Info",
-    "Username": "Username:",
-    "Date_of_Birth": "Date of Birth:",
-    "Join_Date": "Join Date:",
-    "Email_Address": "Email Address",
-    "Change_Password": "Change Password Please enter and confirm your new password. ",
-    "Current_Password": "Current Password*",
-    "New_Password": "New Password*",
-    "Confirm_New_Password": "Confirm New Password*",
-    "Change_Email": "Change Email Change the email address for your account.",
-    "Current_Email": "Current Email*",
-    "New_Email": "New Email*",
-    "Confirm_New_Email": "Confirm New Email",
-    "Save_Change": "Save Change"
-  },
-  "login": {
-    "Login": "Login",
-    "Login_Text": "Sign in to your Mvidpass account to enjoy all our videos.",
-    "Username": "Username",
-    "Password": "Password",
-    "Remember_Me": "Remember Me",
-    "Forget": "If you forgot your password, click here",
-    "Create_Account": "Create Account",
-    "Create_Account_Text": "Don't have a Mvidpass account yet ? It only takes a couple of minutes to create your free account."
-  },
-  "create_acc": {
-    "new_account": "Creating a new account Please fill in your details below.",
-    "Username": "Username",
-    "Password": "Password",
-    "Email": "Email",
-    "Confirm_Password": "Confirm Password",
-    "Date_of_Birth": "Date of Birth",
-    "Gender": "Gender",
-    "Gender_option": " -- select an option --   Male   Female   Other ",
-    "Country_of_Residence": "Country of Residence",
-    "Country_of_Residence_option": " United Kingdom ",
-    "Agree": "I Agree to Terms of Service and PrivacyPolicy",
-    "Create_Account": "Create Account",
-    "Already_have_an_account": "Already have an account? Login"
-  },
-  "forgetpwd": {
-    "Forgot_Password": "Forgot Password Please enter your email in the box, password will be reset and sent to your mailbox.",
-    "Email": "Email",
-    "Submit": "Submit",
-    "Create_Account": "Create Account",
-    "Create_Account_Text": "Create Account Don't have a Mvidpass account yet ? It only takes a couple of minutes to create your free account."
-  },
-  "landing": {
-    "price": "Join now for £4.50 per week",
-    "text1": "Join mvidpass.com. You can find all funny videos here!",
-    "button": "Subscribe",
-    "text2": "100% Daily Update",
-    "failtext": "Subscription failed, please try again.",
-    "cancel": "Cancel ",
-    "footerText": "Join or subscribe to mvidpass.com for £4.50 per week and enjoy full access to our funny videos collections on your mobile phone. By signing up the service, you acknowledge and confirm that you have read the terms &amp; conditions. For help, please email our support at customerservice.uk@mvidpass.com or call 03300412846"
-  }
+	"navbar": {
+		"Login": "Login",
+		"Signup": "Sign up",
+		"Home": "Home",
+		"Recipes": "Recipes",
+		"Baking": "Baking",
+		"Dessert": "Dessert",
+		"Main": "Main",
+		"Entree": "Entree",
+		"Categories": "Categories",
+		"Vegetarian": "Vegetarian Recipes",
+		"Meat": "Meat Recipes",
+		"Seafood": "Seafood Recipes",
+		"Traditional": "Traditional Recipes",
+		"Cuisine": "Cuisine",
+		"Indian": "Indian Recipes",
+		"International": "International Recipes",
+		"MiddleEastern": "Middle Eastern Recipes",
+		"American": "American Recipes",
+		"Italian": "Italian Recipes",
+		"Korean": "Korean Recipes",
+		"All": "All Recipes",
+		"Logout": "Logout"
+	},
+	"footer": {
+		"Privacy": "Privacy",
+		"Terms": "Terms",
+		"ContactUs": "Contact Us",
+		"Copyright": "© 2019 allurfood.com. All rights reserved."
+	},
+	"contactus": {
+		"title": "Contact Us",
+		"subtitle": "We're here to help. We'd Love to hear from you!",
+		"Our Company:": "Our Company:",
+		"Service Name:": "Service Name:",
+		"Our Address:": "Our Address:",
+		"Supports Email:": "Supports Email:",
+		"Supports Hotline:": "Supports Hotline:"
+	},
+	"index": {
+		"Recent": "Recent",
+		"More": "more",
+		"Popular": "Popular",
+		"search": "search"
+	},
+	"login": {
+		"title": "Login Allurfood",
+		"logintxt": "Sign in to your Allurfood account to enjoy all our recipes.",
+		"phonenum": "Your Phone Number",
+		"remember": "Remember Me",
+		"loginbutton": "Login",
+		"createtitle": "Create Account",
+		"createtxt": "Don't have a Allurfood account yet ? It only takes a couple of minutes to create your free account.",
+		"createbutton": "Create Account"
+	},
+	"recipedeatils": {
+		"Ingredients": "Ingredients",
+		"Prep": "Prep",
+		"Cook": "Cook",
+		"mins": "mins",
+		"Servers": "Servers",
+		"People": "People",
+		"Interested": "You May Also Be Interested...",
+		"Popular": "Popular",
+		"Step": "Step"
+	},
+	"recipelist": {
+		"Recipes": "Recipes",
+		"View": "View Recipe"
+	}
 }
