@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
+    "convert-csv-to-array": "^1.0.3",
     "json2csv": "^4.5.2",
     "puppeteer": "^1.18.0",
     "uuid": "^3.3.2",
