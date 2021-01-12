@@ -12,9 +12,10 @@ const readCSV = (fileName, callback) => {
         callback(data)
     })
 }
+let domain = "gogopdf"
 // use https://www.convertcsv.com/xml-to-csv.htm to convert sitemap.xml to csv file first
 // alternative method: https://www.csvjson.com/csv2json
-readCSV('./storage/pdfbear-sitemap.csv', (data) => {
+readCSV(`./storage/${domain}-sitemap.csv`, (data) => {
     // console.log('csv', data)
     const arrayofObjects = convertCSVToArray(data, {
         separator: ',',
@@ -26,7 +27,7 @@ readCSV('./storage/pdfbear-sitemap.csv', (data) => {
         if (url) {
             const regex = /\//g
             const resultName = url.replace(regex, '-')
-            const command = `cd results; curl -k ${url} > ${resultName}.html`
+            const command = `mkdir -p results/${domain}; cd results/${domain}; curl -k ${url} > ${resultName}.html`
             exec(command, function (error, stdout, stderr) {
                 console.log('stdout: ' + stdout);
                 console.log('stderr: ' + stderr);
