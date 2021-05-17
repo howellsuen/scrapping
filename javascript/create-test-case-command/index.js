@@ -21,8 +21,8 @@ const seoTestCaseList = [
     'SEO/SEO.tool.server.spec.js',
 ];
 const blogLangList = [
-    "de",
     "en",
+    "de",
     "es",
     "gr",
     "it",
