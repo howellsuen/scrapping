@@ -36,12 +36,15 @@ const config = {
   data : data
 };
 
-const fields = ['', 'title'];
+const fields = ['date', 'credit', 'debit', 'coin_type', 'coin_price', 'remarks'];
 const opts = { fields };
-const jsonToCsv = async(filename) => {
+const jsonToCsv = async(data) => {
   try {
-    const myData = require(`./${filename}.json`);
-    const csv = parse(myData, opts);
+    data.forEach(element => {
+        
+    });
+    const json = []
+    const csv = parse(json, opts);
     // console.log(csv);
     await fs.writeFile(`./${filename}.csv`,
       csv,
