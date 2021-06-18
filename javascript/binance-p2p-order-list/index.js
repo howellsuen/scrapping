@@ -4,8 +4,9 @@ const fs = require("fs")
 const moment = require("moment")
 
 const data = JSON.stringify({
+  orderStatus: "4",
   page: 1,
-  rows: 300,
+  rows: 100,
 })
 /*
 use Google Chrome network inspector to copy order-list API call as cURL,
@@ -19,7 +20,6 @@ const config = {
     pragma: "no-cache",
     "cache-control": "no-cache",
     "x-trace-id": "ee8bc713-74ff-4a85-9a3a-08c69ef162ad",
-    csrftoken: "e84cef53cb63279e00d982f8bfcb1b65",
     "x-ui-request-trace": "ee8bc713-74ff-4a85-9a3a-08c69ef162ad",
     "user-agent":
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
@@ -41,8 +41,10 @@ const config = {
     referer: "https://c2c.binance.com/en/fiatOrder",
     "accept-language":
       "en-US,en;q=0.9,vi;q=0.8,zh-TW;q=0.7,zh;q=0.6,el;q=0.5,de;q=0.4,cs;q=0.3,hr;q=0.2,nl;q=0.1,pl;q=0.1,nb;q=0.1,sl;q=0.1,hu;q=0.1,th;q=0.1,ar;q=0.1,sk;q=0.1,da;q=0.1,sr;q=0.1",
+    // the two values below need to be updated to keep the login session alive
+    csrftoken: "c138b46396c02af83fd020101f560d09",
     cookie:
-      'cid=PLOchcZ2; bnc-uuid=3859fbae-3c73-4227-a98e-3c37d4dc857c; _ga=GA1.2.1028710687.1610123423; userPreferredCurrency=USD_USD; source=referral; campaign=www.binance.com; fiat-user-save-currency=USD; fiat-prefer-currency=HKD; __BINANCE_USER_DEVICE_ID__={"66a172172fd645f22ff080dfa982c4c2":{"date":1615912503169,"value":"1615912502906tLSs6NIMsyAE9LR7iXc"}}; home-ui-ab=A; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2264008025%22%2C%22first_id%22%3A%22176e2d5aedffa-030001e163eb17-32677007-1764000-176e2d5aee0a12%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22%24device_id%22%3A%22176e2d5aedffa-030001e163eb17-32677007-1764000-176e2d5aee0a12%22%7D; defaultMarketTab=favorite; crypto_withdrawal_refactor=56; sys_mob=no; common_fiat=HKD; noticeCache={"HKD":true}; _gid=GA1.2.2027760438.1621699165; BNC_FV_KEY=31fdd03a7006a478b017e19f8508f69714770df1; BNC_FV_KEY_EXPIRE=1621785566792; lang=en; gtId=296e84db-a74a-492b-a5ec-dbbb4ee49818; cr00=095296DCE11A10E3340B86D6E94224D1; d1og=web.64008025.6BEC9EBF4771E84B89D9AD309D33BFE8; r2o1=web.64008025.7186B333439CD699561813855CEB466E; f30l=web.64008025.09B69AB78F5DADE41E6374A00BCFE236; logined=y; p20t=web.64008025.3303D2DDD044E9CA550910FDDFEB0EED',
+      'cid=j1H2ahIE; __BINANCE_USER_DEVICE_ID__={"66a172172fd645f22ff080dfa982c4c2":{"date":1617858301151,"value":"16178583010061fDJQHDSAsuZvkvrn1T"}}; sys_mob=no; common_fiat=HKD; noticeCache={"HKD":true}; home-ui-ab=A; _ga=GA1.2.1365525643.1622111978; bnc-uuid=e97a386d-5e7e-478d-83d1-e23980fcf0bd; source=referral; campaign=c2c.binance.com; userPreferredCurrency=USD_USD; fiat-prefer-currency=HKD; _h_desk_key=a55ec319e57d4ee7a1a389f430ab348f; _gid=GA1.2.1402060292.1622457232; defaultMarketTab=spot; _hjTLDTest=1; _hjid=f806c1a5-291c-4c23-b3c5-0f7948dceb2b; BNC_FV_KEY=312fabfc2d2da8acaaf2fdce4c9452c7142b8529; BNC_FV_KEY_EXPIRE=1622691404834; cr00=71D3A53E547DDE9B825A7A1CE08A2BCC; d1og=web.64008025.F5A6C3AF2E5533F0BF0FC9A430A033C1; r2o1=web.64008025.BD194BF5532171F28321137766DB907A; f30l=web.64008025.F553AA8E30A3C55CEEA444A633ADAB12; logined=y; p20t=web.64008025.09D5054EBE6BA9B8B0C968FB1868F98C; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2264008025%22%2C%22first_id%22%3A%22179ad6887aa476-0eb560740dc3b4-1f3a6255-2073600-179ad6887ab34d%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E8%87%AA%E7%84%B6%E6%90%9C%E7%B4%A2%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%7D%2C%22%24device_id%22%3A%22179ad6887aa476-0eb560740dc3b4-1f3a6255-2073600-179ad6887ab34d%22%7D; lang=en; _gat=1',
   },
   data: data,
 }

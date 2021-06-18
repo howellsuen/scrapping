@@ -1,0 +1,95 @@
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.global.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.index.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.subpage.client.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.subpage.server.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.tool.client.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.tool.server.spec.js >> Output.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.blogArticle.client.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.blogArticle.server.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.blogIndex.client.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SEO/SEO.blogIndex.server.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Blog/Blog.AllType.client.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Blog/Blog.AllType.server.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Blog/Blog.article.client.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Blog/Blog.article.server.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Blog/Blog.index.client.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Blog/Blog.index.server.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Blog/Blog.updateBlogData.spec.js >> Output1.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Footer/footer.home.client.spec.js >> Output2.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Footer/footer.home.server.spec.js >> Output2.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Footer/footer.profile.client.spec.js >> Output2.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Footer/footer.subpages.client.spec.js >> Output2.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Footer/footer.subpages.server.spec.js >> Output2.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Footer/footer.tools.client.spec.js >> Output2.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Footer/footer.tools.server.spec.js >> Output2.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Header/header.home.client.spec.js >> Output3.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Header/header.home.server.spec.js >> Output3.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Header/header.profile.client.spec.js >> Output3.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Header/header.subpages.client.spec.js >> Output3.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Header/header.subpages.server.spec.js >> Output3.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Header/header.tools.client.spec.js >> Output3.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Header/header.tools.server.spec.js >> Output3.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Path/AbsolutePathTest.blog_articles.client.spec.js >> Output4.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Path/AbsolutePathTest.blog_articles.server.spec.js >> Output4.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Path/AbsolutePathTest.blog_feature.client.spec.js >> Output4.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Path/AbsolutePathTest.blog_index.server.spec.js >> Output4.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Path/AbsolutePathTest.index.spec.js >> Output4.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Path/AbsolutePathTest.subpage.client.spec.js >> Output4.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Path/AbsolutePathTest.subpage.server.spec.js >> Output4.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Path/AbsolutePathTest.tool.client.spec.js >> Output4.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Path/AbsolutePathTest.tool.server.spec.js >> Output4.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Profile/Profile.spec.js >> Output5.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Sitemap/sitemap.spec.js >> Output5.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/404.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/Archived >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/Contact.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/EmailVerificationModal.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/Home.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/LanguageSwitchModal.client.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/LanguageSwitchModal.server.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/LinuxBios.spec.js >> Output6.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/LoginModal.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/PaymentModal.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/Pricing.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/Privacy.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/Pro.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/Profile.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/ResetPassword.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/Share.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/Terms.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/WebIntegration.spec.js >> Output6.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/SubPages/WhyLinuxIsBetter.spec.js >> Output6.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/AddWatermark.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/CompressPDF.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/DeletePages.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/ESignPDF.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/ExcelToPDF.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/HtmlToPdf.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/JpgToPdf.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/MergePDF.spec.js >> Output7.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/NumberPages.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/PDFtoWord.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/PPTtoPDF.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/PdfConverter.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/PdfReader.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/PdfToExcel.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/PdfToJpg.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/PdfToPdfa.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/PdfToPng.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/PdfToPpt.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/ProtectPDF.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/RepairPDF.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/RotatePDF.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/ShareDocument.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/SplitPDF.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/UnlockPDF.spec.js >> Output7.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=dev --spec cypress/integration/Tools/WordToPDF.spec.js >> Output7.txt;

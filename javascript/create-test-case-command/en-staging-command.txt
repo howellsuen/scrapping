@@ -1,0 +1,12 @@
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.global.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.index.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.subpage.client.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.subpage.server.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.tool.client.spec.js >> Output.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.tool.server.spec.js >> Output.txt;
+
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/Blog/Blog.updateBlogData.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.blogArticle.client.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.blogArticle.server.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.blogIndex.client.spec.js >> Output1.txt;
+ npm run cy:run -- --env language=en,NODE_ENV=staging --spec cypress/integration/SEO/SEO.blogIndex.server.spec.js >> Output1.txt;
